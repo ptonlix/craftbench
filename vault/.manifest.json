@@ -1,0 +1,243 @@
+{
+  "version": 1,
+  "stats": {
+    "total_sources_ingested": 11,
+    "total_pages": 22
+  },
+  "sources": {
+    "workbench/articles/published/2026-06-01-gohumanloop-langgraph/index.md": {
+      "ingested_at": "2026-07-08T08:33:23Z",
+      "size_bytes": 22147,
+      "modified_at": 1783091785,
+      "content_hash": "sha256:45fb47fb9bbec1d91094c89f12b792a7a4f1fcdf4affab0db914c1e919a45dc4",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "concepts/human-in-the-loop.md",
+        "entities/gohumanloop.md",
+        "skills/langgraph-human-loop-integration.md",
+        "synthesis/ai-agent-production-loop.md",
+        "references/published-article-batch-2026-06.md"
+      ],
+      "pages_updated": [],
+      "pages_produced": [
+        "concepts/human-in-the-loop.md",
+        "entities/gohumanloop.md",
+        "skills/langgraph-human-loop-integration.md",
+        "synthesis/ai-agent-production-loop.md",
+        "references/published-article-batch-2026-06.md"
+      ]
+    },
+    "workbench/articles/published/2026-06-02-agent-cleaner-skill/index.md": {
+      "ingested_at": "2026-07-08T08:33:23Z",
+      "size_bytes": 12621,
+      "modified_at": 1783091785,
+      "content_hash": "sha256:86b8476e0a66bbcb712b2a7f73b68997a90bdf3aa7a6ed493c464f75b4b73506",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "concepts/agent-skill-as-application.md",
+        "references/published-article-batch-2026-06.md"
+      ],
+      "pages_updated": [],
+      "pages_produced": [
+        "concepts/agent-skill-as-application.md",
+        "references/published-article-batch-2026-06.md"
+      ]
+    },
+    "workbench/articles/published/2026-06-02-gohumanloop-crewai/index.md": {
+      "ingested_at": "2026-07-08T08:33:23Z",
+      "size_bytes": 6374,
+      "modified_at": 1783091785,
+      "content_hash": "sha256:5629f951d9163572ad8252906d01ca8c88d54181d3416263999dd15b94784013",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "concepts/human-in-the-loop.md",
+        "entities/gohumanloop.md",
+        "skills/crewai-human-loop-integration.md",
+        "references/published-article-batch-2026-06.md"
+      ],
+      "pages_updated": [],
+      "pages_produced": [
+        "concepts/human-in-the-loop.md",
+        "entities/gohumanloop.md",
+        "skills/crewai-human-loop-integration.md",
+        "references/published-article-batch-2026-06.md"
+      ]
+    },
+    "workbench/articles/published/2026-06-02-gohumanloop-wework/index.md": {
+      "ingested_at": "2026-07-08T08:33:23Z",
+      "size_bytes": 10196,
+      "modified_at": 1783091785,
+      "content_hash": "sha256:5654dc323d7d2a7ce273ab00daf00e15770ebd59d0dd09991726ad71eb07f284",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "entities/gohumanloop-wework.md",
+        "skills/wework-human-loop-deployment.md",
+        "synthesis/ai-agent-production-loop.md",
+        "references/published-article-batch-2026-06.md"
+      ],
+      "pages_updated": [],
+      "pages_produced": [
+        "entities/gohumanloop-wework.md",
+        "skills/wework-human-loop-deployment.md",
+        "synthesis/ai-agent-production-loop.md",
+        "references/published-article-batch-2026-06.md"
+      ]
+    },
+    "workbench/articles/published/2026-06-05-gohumanloop-wework-langgraph/index.md": {
+      "ingested_at": "2026-07-08T08:33:23Z",
+      "size_bytes": 8935,
+      "modified_at": 1783091785,
+      "content_hash": "sha256:32626d437d10919aebdc0dcb37cd2abc0569066de05fc3e1dc8c6a35b3031ddd",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "entities/gohumanloop.md",
+        "entities/gohumanloop-wework.md",
+        "skills/langgraph-human-loop-integration.md",
+        "skills/wework-human-loop-deployment.md",
+        "references/published-article-batch-2026-06.md"
+      ],
+      "pages_updated": [],
+      "pages_produced": [
+        "entities/gohumanloop.md",
+        "entities/gohumanloop-wework.md",
+        "skills/langgraph-human-loop-integration.md",
+        "skills/wework-human-loop-deployment.md",
+        "references/published-article-batch-2026-06.md"
+      ]
+    },
+    "workbench/articles/published/2026-06-12-agent-loop-engineering/index.md": {
+      "ingested_at": "2026-07-08T08:33:23Z",
+      "size_bytes": 11615,
+      "modified_at": 1783091785,
+      "content_hash": "sha256:056d4137ea94241abe02a9fcf84393785def5beefe2e478efac3c994d4d8ff5e",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "concepts/agent-loop-engineering.md",
+        "concepts/prompt-context-harness-engineering.md",
+        "concepts/human-in-the-loop.md",
+        "synthesis/ai-agent-production-loop.md",
+        "references/published-article-batch-2026-06.md"
+      ],
+      "pages_updated": [],
+      "pages_produced": [
+        "concepts/agent-loop-engineering.md",
+        "concepts/prompt-context-harness-engineering.md",
+        "concepts/human-in-the-loop.md",
+        "synthesis/ai-agent-production-loop.md",
+        "references/published-article-batch-2026-06.md"
+      ]
+    },
+    "workbench/articles/published/2026-06-20-prompt-context-harness/index.md": {
+      "ingested_at": "2026-07-08T08:33:23Z",
+      "size_bytes": 10495,
+      "modified_at": 1783091785,
+      "content_hash": "sha256:edf15ccd7b59216b1be53d273f5ccf841f1ef04c2a0ad5affdacb877d480cc10",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "concepts/prompt-context-harness-engineering.md",
+        "concepts/agent-loop-engineering.md",
+        "synthesis/ai-agent-production-loop.md",
+        "references/published-article-batch-2026-06.md"
+      ],
+      "pages_updated": [],
+      "pages_produced": [
+        "concepts/prompt-context-harness-engineering.md",
+        "concepts/agent-loop-engineering.md",
+        "synthesis/ai-agent-production-loop.md",
+        "references/published-article-batch-2026-06.md"
+      ]
+    },
+    "workbench/articles/published/2026-06-25-jit-learning/index.md": {
+      "ingested_at": "2026-07-08T08:33:23Z",
+      "size_bytes": 2223,
+      "modified_at": 1783091785,
+      "content_hash": "sha256:746036b2cfbcd40221e941e956272812b47b95aca650a1b990264e1daefe9526",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "concepts/jit-learning.md",
+        "references/published-article-batch-2026-06.md"
+      ],
+      "pages_updated": [],
+      "pages_produced": [
+        "concepts/jit-learning.md",
+        "references/published-article-batch-2026-06.md"
+      ]
+    },
+    "workbench/articles/published/2026-07-08-article-beeweave-creation-workbench.md": {
+      "ingested_at": "2026-07-08T09:38:20Z",
+      "size_bytes": 13491,
+      "modified_at": 1783503423,
+      "content_hash": "sha256:fd2ca07bf05615584be43bedaa4b6dc9616040493a288e6dd711453fa34435ab",
+      "source_type": "document",
+      "project": "beeweave",
+      "pages_created": [
+        "projects/beeweave/references/beeweave-creation-workbench-article.md"
+      ],
+      "pages_updated": [
+        "projects/beeweave/beeweave.md",
+        "projects/beeweave/concepts/workbench-vault-architecture.md",
+        "projects/beeweave/concepts/agent-skill-install-model.md"
+      ],
+      "pages_produced": [
+        "projects/beeweave/references/beeweave-creation-workbench-article.md",
+        "projects/beeweave/beeweave.md",
+        "projects/beeweave/concepts/workbench-vault-architecture.md",
+        "projects/beeweave/concepts/agent-skill-install-model.md"
+      ]
+    },
+    "../beeweave": {
+      "ingested_at": "2026-07-08T08:13:32Z",
+      "size_bytes": 960,
+      "modified_at": 1783255731,
+      "content_hash": "sha256:e0673c0bfa2df2886b5eeb15db0c77c82537705da00c5e8bc9e82e4e97e00dcf",
+      "last_ingested": "2026-07-08T08:16:25.072815+00:00",
+      "source_type": "document",
+      "project": "beeweave",
+      "pages_created": [
+        "projects/beeweave/beeweave.md",
+        "projects/beeweave/concepts/workbench-vault-architecture.md",
+        "projects/beeweave/concepts/agent-skill-install-model.md",
+        "projects/beeweave/skills/beeweave-cli-operations.md",
+        "projects/beeweave/skills/beeweave-development-workflow.md",
+        "projects/beeweave/entities/beeweave-brain-capture-extension.md",
+        "projects/beeweave/references/beeweave-source-repository.md"
+      ],
+      "pages_updated": [],
+      "pages_produced": [
+        "projects/beeweave/beeweave.md",
+        "projects/beeweave/concepts/workbench-vault-architecture.md",
+        "projects/beeweave/concepts/agent-skill-install-model.md",
+        "projects/beeweave/skills/beeweave-cli-operations.md",
+        "projects/beeweave/skills/beeweave-development-workflow.md",
+        "projects/beeweave/entities/beeweave-brain-capture-extension.md",
+        "projects/beeweave/references/beeweave-source-repository.md"
+      ]
+    },
+    "workbench/articles/published/2026-07-09-social-short-post-ai-model-race.md": {
+      "ingested_at": "2026-07-09T07:18:34Z",
+      "size_bytes": 1673,
+      "modified_at": 1783581488,
+      "content_hash": "sha256:3465dd9e29e71510cfa87f5b04f33c789316c79378158d7a0a948625e8a3fb8e",
+      "last_ingested": "2026-07-09T07:19:39.833506+00:00",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "concepts/ai-model-scaling-race.md",
+        "references/ai-model-race-social-post-2026-07-09.md"
+      ],
+      "pages_updated": [],
+      "pages_produced": [
+        "concepts/ai-model-scaling-race.md",
+        "references/ai-model-race-social-post-2026-07-09.md"
+      ]
+    }
+  }
+}

@@ -1,0 +1,118 @@
+# Craftbench Knowledge Creation Workbench
+
+English | [中文](README-zh.md)
+
+Craftbench is my personal knowledge creation workbench built with [BeeWeave](https://github.com/ptonlix/beeweave).
+
+BeeWeave is an agent-native creation workbench. It provides the `bwe` CLI, Agent skills, bootstrap templates, a browser capture extension, and knowledge-base maintenance workflows that connect material collection, content creation, knowledge distillation, and context reuse into a continuous data flywheel.
+
+## Relationship With BeeWeave
+
+`../beeweave` is the upstream tool and skill source. It contains:
+
+- `beeweave/`: Python CLI and helper logic, including `bwe setup`, `bwe info`, `bwe list`, graph, cache, batch, and AST utilities.
+- `.skills/`: BeeWeave Agent skills, including ingest, query, update, capture, digest, synthesize, article writer, social writer, and more.
+- `bootstrap/`: rules and startup templates installed into different Agents, including `AGENTS.md`, Claude, Cursor, Kiro, Windsurf, Copilot, and related adapter files.
+- `extensions/brain-capture/`: a browser capture extension for saving web pages and selected text into the workbench inbox.
+- `docs/`: BeeWeave documentation in English and Chinese.
+- `tests/` and `openspec/`: BeeWeave's own tests and specification change records.
+
+`./craftbench` is my personal data and creation workspace. It contains:
+
+- `workbench/`: the creation workbench for source material, drafts, published pieces, and temporary inputs.
+- `vault/`: the compiled Markdown knowledge base for reusable, searchable, linkable, durable knowledge.
+- `AGENTS.md`: the Agent collaboration rules for this workspace.
+- `.claude/` and `.codex/`: project-local Agent skill entry points installed by BeeWeave.
+
+## Directory Layout
+
+```text
+.
+├── workbench/          # Creation workbench: material, inbox, drafts, published pieces
+├── vault/              # Knowledge base: concepts, entities, skills, references, synthesis
+├── AGENTS.md           # Agent collaboration rules for this workspace
+├── CLAUDE.md           # Compatibility entry pointing to AGENTS.md
+├── README.md           # English README
+└── README-zh.md        # Chinese README
+```
+
+## workbench: Creation Workspace
+
+`workbench/` is the entry point for content entering the system, and it is where writing and organization happen. Material here is allowed to stay rough because this layer is responsible for the creative process, not long-term knowledge.
+
+Current structure:
+
+- `workbench/inbox/`: material intake for web captures, temporary notes, and inputs waiting to be processed.
+- `workbench/inbox/web/`: page snapshots and Markdown captured from the web.
+- `workbench/articles/drafts/`: article drafts.
+- `workbench/articles/published/`: published pieces, also an important source for ingesting into the knowledge base.
+- `workbench/library/`: source library for relatively stable references that may not yet belong in the vault.
+
+Common actions:
+
+```text
+/beeweave-url-capture <url>
+/beeweave-article-writer
+/beeweave-social-writer
+/beeweave-article-publisher
+```
+
+## vault: Knowledge Base
+
+`vault/` is the stable knowledge layer compiled by BeeWeave. It can be opened directly in Obsidian and can also serve as a source for Agent queries and context reuse.
+
+Current structure:
+
+- `concepts/`: concepts, theories, methods, and mental models.
+- `entities/`: concrete objects such as tools, projects, organizations, and products.
+- `skills/`: operational procedures and practical knowledge, not Agent Skill source code.
+- `references/`: source records, article batches, and factual references.
+- `synthesis/`: cross-topic and cross-source synthesis.
+- `projects/`: project-specific knowledge.
+- `journal/`: time-bound notes and periodic reflections.
+- `_raw/`, `_staging/`, `_archives/`, and `_meta/`: support directories used by BeeWeave maintenance workflows.
+
+Common actions:
+
+```text
+/beeweave-ingest workbench/articles/published
+/beeweave-query what do I already know about Agent Loop Engineering?
+/beeweave-update
+/beeweave-synthesize
+/beeweave-digest
+```
+
+## Current Knowledge Themes
+
+This workspace currently focuses on:
+
+- BeeWeave: agent-native knowledge workbench, workbench/vault architecture, and skill installation model.
+- AI Agent engineering: Loop Engineering, Prompt/Context/Harness, and production-grade Agent workflows.
+- Human-in-the-loop: approvals, feedback, human takeover, and system safety boundaries.
+- GoHumanLoop: concrete integration paths for LangGraph, CrewAI, and WeCom approvals.
+- Creation methods: moving from source material to articles, then turning articles back into reusable knowledge.
+- AI model competition: scale law, pretraining scale, and judgments about the AI model race in the second half of 2026.
+
+Index entry points:
+
+```text
+vault/index.md
+vault/hot.md
+```
+
+## Recommended Workflow
+
+1. Capture material: put web pages, links, articles, conversations, or quick ideas into `workbench/inbox/`.
+2. Organize creation: write drafts in `workbench/articles/drafts/`, or use writing skills to produce a first draft.
+3. Publish content: move finalized pieces into `workbench/articles/published/`.
+4. Distill knowledge: use `beeweave-ingest` or `beeweave-update` to turn high-value content into vault pages.
+5. Reuse context: use `beeweave-query`, `beeweave-digest`, and `beeweave-context-pack` to bring existing knowledge into the next task.
+
+## Conventions
+
+- New material should enter `workbench/` first instead of being placed directly into `vault/`.
+- Content in `vault/` should be stable, reusable, and linkable knowledge.
+- Published articles are high-signal inputs and should preferably be ingested from `workbench/articles/published/`.
+- Paths inside this workspace should prefer relative references to avoid binding the workspace to a local absolute directory.
+- Agent collaboration should follow `AGENTS.md`, especially Chinese output, traceable changes, and quality verification.
+- If BeeWeave source code or tool behavior needs to change, modify `../beeweave`; do not copy the source repository into this workspace.
