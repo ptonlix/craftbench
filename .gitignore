@@ -1,1 +1,11 @@
-.serena
+# 本机环境
+.env
+.serena/
+
+# BeeWeave setup 生成的 Agent 入口与本机技能链接
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+HERMES.md
+.claude/
+.codex/

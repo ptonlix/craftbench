@@ -36,6 +36,19 @@ BeeWeave 是一个 Agent 原生的创作工作台。它提供 `bwe` CLI、Agent 
 └── README-zh.md        # 中文说明文件
 ```
 
+## 本机 setup 文件
+
+Agent 入口文件和技能目录由 BeeWeave 按当前机器生成，已刻意加入
+Git 忽略名单：
+
+- `AGENTS.md`、`CLAUDE.md`、`GEMINI.md`、`HERMES.md`
+- `.claude/`、`.codex/`
+- `.env`、`.serena/`
+
+这些文件可能包含本机路径，或指向 BeeWeave 源码 checkout 的软链接，
+不应该提交到 GitHub。其他机器克隆这个工作区后，应重新运行
+BeeWeave setup，让工具按新环境重新生成 Agent 入口和技能链接。
+
 ## workbench：创作工作台
 
 `workbench/` 是内容进入系统的入口，也是写作和整理发生的地方。这里允许材料保持粗糙，因为它的职责是承接创作过程，而不是直接成为长期知识。
