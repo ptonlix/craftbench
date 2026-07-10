@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 11,
-    "total_pages": 22
+    "total_sources_ingested": 12,
+    "total_pages": 28
   },
   "sources": {
     "workbench/articles/published/2026-06-01-gohumanloop-langgraph/index.md": {
@@ -221,6 +221,31 @@
         "projects/beeweave/references/beeweave-source-repository.md"
       ]
     },
+    "workbench/articles/published/2026-07-10-social-zhihu-vibe-coding-free-resources.md": {
+      "ingested_at": "2026-07-10T02:51:00Z",
+      "size_bytes": 3931,
+      "modified_at": 1783651881,
+      "content_hash": "sha256:78919ad285bb46d795179c7a8c99951c44fc0e5325adbcccee268b2700d7380a",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "concepts/vibe-coding.md",
+        "entities/easy-vibe.md",
+        "entities/vibe-coding-cn.md",
+        "entities/awesome-vibe-coding.md",
+        "skills/vibe-coding-self-learning-path.md",
+        "references/vibe-coding-social-post-2026-07-10.md"
+      ],
+      "pages_updated": [],
+      "pages_produced": [
+        "concepts/vibe-coding.md",
+        "entities/easy-vibe.md",
+        "entities/vibe-coding-cn.md",
+        "entities/awesome-vibe-coding.md",
+        "skills/vibe-coding-self-learning-path.md",
+        "references/vibe-coding-social-post-2026-07-10.md"
+      ]
+    },
     "workbench/articles/published/2026-07-09-social-short-post-ai-model-race.md": {
       "ingested_at": "2026-07-09T07:18:34Z",
       "size_bytes": 1673,
@@ -237,6 +262,18 @@
       "pages_produced": [
         "concepts/ai-model-scaling-race.md",
         "references/ai-model-race-social-post-2026-07-09.md"
+      ]
+    },
+    "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-10-social-zhihu-vibe-coding-free-resources.md": {
+      "content_hash": "sha256:78919ad285bb46d795179c7a8c99951c44fc0e5325adbcccee268b2700d7380a",
+      "last_ingested": "2026-07-10T02:52:49.041726+00:00",
+      "pages_produced": [
+        "concepts/vibe-coding.md",
+        "entities/easy-vibe.md",
+        "entities/vibe-coding-cn.md",
+        "entities/awesome-vibe-coding.md",
+        "skills/vibe-coding-self-learning-path.md",
+        "references/vibe-coding-social-post-2026-07-10.md"
       ]
     }
   }

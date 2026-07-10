@@ -1,5 +1,6 @@
 ## Log
 
+- [2026-07-10T02:51:00Z] INGEST source="workbench/articles/published/2026-07-10-social-zhihu-vibe-coding-free-resources.md" pages_updated=0 pages_created=6 mode=append
 - [2026-07-02T02:49:38Z] INGEST source="workbench/articles/published" pages_updated=0 pages_created=12 mode=append
 - [2026-07-08T08:13:32Z] INGEST source="../beeweave" pages_updated=0 pages_created=7 mode=append
 - [2026-07-08T08:33:23Z] INGEST source="workbench/articles/published" pages_updated=0 pages_created=12 mode=full action="delete-and-regenerate"
