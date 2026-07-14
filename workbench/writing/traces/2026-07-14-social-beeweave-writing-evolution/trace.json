@@ -1,0 +1,34 @@
+{
+  "task_type": "social",
+  "request_summary": "根据用户提供的 BeeWeave 自进化写作工作流说明，撰写一篇切中痛点、突出要点并激发使用欲望的宣传 Post 短文。",
+  "platform_or_format": "short-post",
+  "source_material": "用户在当前会话中提供的自进化写作工作流完整说明",
+  "draft_path": "workbench/articles/drafts/2026-07-14-social-short-post-beeweave-writing-evolution.md",
+  "output_paths": [
+    "workbench/articles/drafts/2026-07-14-social-short-post-beeweave-writing-evolution.md"
+  ],
+  "current_version": 2,
+  "skill_name": "beeweave-social-writer",
+  "skill_source_path": "/Users/atlas/WorkStation/craftbench/.agents/skills/beeweave-social-writer/SKILL.md",
+  "created_at": "2026-07-14T15:48:00+08:00",
+  "updated_at": "2026-07-14T16:17:00+08:00",
+  "learning_status": "strong_signal_observed",
+  "revision_events": [
+    {
+      "version": 1,
+      "timestamp": "2026-07-14T15:48:00+08:00",
+      "action": "initial_draft",
+      "instruction_summary": "使用 beeweave-social-writer，把自进化写作工作流写成切中痛点和要点、让人马上想用的宣传 Post 短文。",
+      "diff_summary": "以反复改稿却无法跨会话沉淀为核心痛点，压缩介绍 writer、learner、evolver 的协作方式，强调规则需验证确认、可拒绝回滚，以及让每次改稿成为下次写作起点的收益。",
+      "learning_signal": "observed"
+    },
+    {
+      "version": 2,
+      "timestamp": "2026-07-14T16:17:00+08:00",
+      "action": "revise_from_user_instruction",
+      "instruction_summary": "在文章最后加入 BeeWeave 项目地址、英文 Slogan 和自进化写作说明链接。",
+      "diff_summary": "在核心收尾后追加 BeeWeave 英文定位、GitHub 项目地址和自进化写作文档入口，并保持链接统一放在正文末尾。",
+      "learning_signal": "strong"
+    }
+  ]
+}

@@ -102,6 +102,15 @@
 - resolution: moved into author_profile.md on 2026-07-12 after user confirmation; not activated as an instruction rule.
 - rule: 作者长期关注 AI Agent 工程化：不满足于提示词技巧，而是倾向讨论上下文组织、工作循环、工具外壳、验证机制、人工接管和长期记忆。
 
+### PENDING-20260714-001
+- status: pending
+- scope: social
+- suggested_layer: instruction
+- confidence: high
+- evidence: workbench/writing/traces/2026-07-13-social-chatcut-pricing/trace.json；用户明确认可素材中的铺垫式开头，并指令将原有问句钩子改为“热点讨论—网友质疑—主动研究—直接结论”的完整开场，属于用户指令驱动的强改稿信号。
+- validation: 后续撰写热点解释、收费澄清或争议回应类短帖时，分别测试直接问句钩子与四步铺垫开场；检查四步开场是否能在前 4 个短段内交代讨论背景、核心质疑、作者行动和明确结论，且没有拖慢正文。
+- rule: 写热点解释、收费澄清或争议回应类短帖时，开头优先按“热点讨论—外部质疑—我去研究/核实—先给结论”推进；先让读者知道争议从哪里来、作者为何介入，再进入具体解释。该规则是 RULE-20260712-005 的场景化补充，不替代一般社交短内容的反常识钩子规则。
+
 ## 条目格式
 
 ```text
