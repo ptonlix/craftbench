@@ -1,5 +1,6 @@
 # 本机环境
 .env
+.baoyu-skills/
 .serena/
 
 # BeeWeave setup 生成的 Agent 入口与本机技能链接

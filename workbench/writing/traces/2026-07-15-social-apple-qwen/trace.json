@@ -1,0 +1,37 @@
+{
+  "task_type": "social",
+  "user_request_summary": "基于用户提供的 Apple 智能通过备案、阿里千问将集成至 Apple 智能的素材，参考其对千问全面性和开源策略的评价，输出一篇 Post 文。",
+  "platform_or_format": "short-post",
+  "source_material_summary": "人民财讯 7 月 15 日消息称，网信中国发布公告，Apple 智能正式通过生成式人工智能服务备案；阿里巴巴回应称，阿里千问将作为 AI 能力集成至 Apple 智能，为 iOS、iPadOS、macOS 和 visionOS 的中国用户提供文本与图像理解、内容生成等能力。",
+  "draft_path": "workbench/articles/drafts/2026-07-15-social-short-post-apple-qwen/2026-07-15-social-short-post-apple-qwen.md",
+  "output_paths": [
+    "workbench/articles/drafts/2026-07-15-social-short-post-apple-qwen/2026-07-15-social-short-post-apple-qwen.md",
+    "workbench/articles/drafts/2026-07-15-social-short-post-apple-qwen/imgs/01-infographic-apple-qwen-ai.png",
+    "workbench/articles/drafts/2026-07-15-social-short-post-apple-qwen/imgs/outline.md",
+    "workbench/articles/drafts/2026-07-15-social-short-post-apple-qwen/imgs/prompts/01-infographic-apple-qwen-ai.md",
+    "workbench/writing/traces/2026-07-15-social-apple-qwen/trace.md",
+    "workbench/writing/traces/2026-07-15-social-apple-qwen/trace.json"
+  ],
+  "current_version": "initial",
+  "skill_name": "beeweave-social-writer",
+  "skill_source_path": "/Users/cfd/workstation/Wiki/beeweave/.skills/workbench/beeweave-social-writer/SKILL.md",
+  "created_at": "2026-07-15T20:00:25+08:00",
+  "updated_at": "2026-07-15T22:20:52+08:00",
+  "learning_status": "observed",
+  "revision_events": [
+    {
+      "action": "initial_draft",
+      "timestamp": "2026-07-15T22:20:52+08:00",
+      "instruction_summary": "输出一篇 Post 文，参考用户提供的评价。",
+      "diff_summary": "创建初稿，聚焦千问的综合能力、开源透明度与苹果对可审计性和掌控力的需求。",
+      "learning_signal": "observed"
+    },
+    {
+      "action": "article_illustration",
+      "timestamp": "2026-07-15T20:00:25+08:00",
+      "instruction_summary": "为文章生成一张主图。",
+      "diff_summary": "将文章移动到专属目录，生成主图与配图 outline/prompt 文件，并在正文开头插入图片引用。",
+      "learning_signal": "observed"
+    }
+  ]
+}
