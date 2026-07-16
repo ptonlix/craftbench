@@ -4,6 +4,16 @@
 
 ## Log
 
+## 2026-07-16 21:31 激活观点金句与局部清单规则
+
+- action: activate
+- affected_layer: resource
+- affected_files: writing/style/active_style_rules.md；writing/style/pending_rules.md；writing/style/evolution_log.md
+- evidence: PENDING-20260716-001；PENDING-20260716-002；workbench/articles/drafts/2026-07-16-social-short-post-one-person-company-risk/2026-07-16-social-short-post-one-person-company-risk.md；workbench/writing/traces/2026-07-16-social-one-person-company-risk/trace.json；用户明确说明正文为手动改写
+- validation: writing/eval/ 暂无相关 social case；本次基于用户手动改稿强信号、规则重叠审阅和用户在 2026-07-16 明确确认激活
+- summary: 新增观点型社交短文的独立对照金句规则；将局部短清单作为 RULE-20260712-006“正文尽量不用 bullet”的受限例外合并，避免规则冲突和 active 条目碎片化
+- rollback: 删除 RULE-20260716-001；将 RULE-20260712-006 的 evidence、validated_by 和 rule 恢复为本次变更前内容；把 PENDING-20260716-001 恢复为 pending 并删除 resolution；把 PENDING-20260716-002 恢复为 pending 并删除 resolution
+
 ## 2026-07-12 22:52 激活首批发布稿风格规则
 
 - action: activate

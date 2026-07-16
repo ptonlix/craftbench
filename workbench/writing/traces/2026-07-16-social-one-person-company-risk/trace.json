@@ -1,0 +1,48 @@
+{
+  "task_type": "social",
+  "request_summary": "基于指定知乎素材，撰写不少于500字的短博文，回答一人公司创业中最大的风险是什么",
+  "format": "short-post",
+  "source_refs": [
+    "workbench/inbox/web/2026-07-16-web-zhihu-com-question-2052706267966043505-answer-2057603013083129846/index.md"
+  ],
+  "draft_path": "workbench/articles/drafts/2026-07-16-social-short-post-one-person-company-risk/2026-07-16-social-short-post-one-person-company-risk.md",
+  "output_paths": [
+    "workbench/articles/drafts/2026-07-16-social-short-post-one-person-company-risk/2026-07-16-social-short-post-one-person-company-risk.md",
+    "workbench/articles/drafts/2026-07-16-social-short-post-one-person-company-risk/imgs/01-comparison-one-person-company-risk.png"
+  ],
+  "current_version": 1,
+  "skill_name": "beeweave-social-writer",
+  "skill_source_path": ".agents/skills/beeweave-social-writer/SKILL.md",
+  "created_at": "2026-07-16T18:16:33+08:00",
+  "updated_at": "2026-07-16T20:08:24+08:00",
+  "learning_status": "strong_manual_revision_signal",
+  "revision_events": [
+    {
+      "version": 1,
+      "action": "initial_draft",
+      "summary": "围绕生产效率与商业验证错配，提炼一人公司最核心的创业风险",
+      "learning_signal": "observed",
+      "timestamp": "2026-07-16T18:16:33+08:00"
+    },
+    {
+      "version": 1,
+      "action": "add_illustration",
+      "summary": "整理文章专属目录，生成并插入16:9 screen-print宣传图，完成文字与构图检查",
+      "learning_signal": "observed",
+      "timestamp": "2026-07-16T19:54:24+08:00"
+    },
+    {
+      "version": 2,
+      "action": "manual_revision_reference",
+      "summary": "用户明确说明已手动改写正文；新增来源式开场和独立对照金句，并把连续判断问题拆成3条短清单",
+      "diff_summary": "强化开头的作者选择与核心金句；将长句式检查问题重构为局部列表；保留原有生产效率与商业验证错位的论证主轴",
+      "learning_signal": "strong",
+      "style_candidates": [
+        "PENDING-20260716-001",
+        "PENDING-20260716-002"
+      ],
+      "example_candidate": "EXAMPLE-20260716-001",
+      "timestamp": "2026-07-16T20:08:24+08:00"
+    }
+  ]
+}

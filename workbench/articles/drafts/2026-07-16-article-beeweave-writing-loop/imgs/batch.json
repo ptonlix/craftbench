@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    {
+      "id": "illustration-01",
+      "promptFiles": [
+        "workbench/articles/drafts/2026-07-16-article-beeweave-writing-loop/imgs/prompts/01-flowchart-writing-loop.md"
+      ],
+      "image": "workbench/articles/drafts/2026-07-16-article-beeweave-writing-loop/imgs/01-flowchart-writing-loop.png",
+      "provider": "replicate",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "illustration-02",
+      "promptFiles": [
+        "workbench/articles/drafts/2026-07-16-article-beeweave-writing-loop/imgs/prompts/02-flowchart-workbench-vault.md"
+      ],
+      "image": "workbench/articles/drafts/2026-07-16-article-beeweave-writing-loop/imgs/02-flowchart-workbench-vault.png",
+      "provider": "replicate",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "illustration-03",
+      "promptFiles": [
+        "workbench/articles/drafts/2026-07-16-article-beeweave-writing-loop/imgs/prompts/03-flowchart-human-agent.md"
+      ],
+      "image": "workbench/articles/drafts/2026-07-16-article-beeweave-writing-loop/imgs/03-flowchart-human-agent.png",
+      "provider": "replicate",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "illustration-04",
+      "promptFiles": [
+        "workbench/articles/drafts/2026-07-16-article-beeweave-writing-loop/imgs/prompts/04-flowchart-style-learning.md"
+      ],
+      "image": "workbench/articles/drafts/2026-07-16-article-beeweave-writing-loop/imgs/04-flowchart-style-learning.png",
+      "provider": "replicate",
+      "ar": "16:9",
+      "quality": "2k"
+    }
+  ]
+}

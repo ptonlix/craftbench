@@ -111,6 +111,26 @@
 - validation: 后续撰写热点解释、收费澄清或争议回应类短帖时，分别测试直接问句钩子与四步铺垫开场；检查四步开场是否能在前 4 个短段内交代讨论背景、核心质疑、作者行动和明确结论，且没有拖慢正文。
 - rule: 写热点解释、收费澄清或争议回应类短帖时，开头优先按“热点讨论—外部质疑—我去研究/核实—先给结论”推进；先让读者知道争议从哪里来、作者为何介入，再进入具体解释。该规则是 RULE-20260712-005 的场景化补充，不替代一般社交短内容的反常识钩子规则。
 
+### PENDING-20260716-001
+- status: activated
+- scope: social
+- suggested_layer: instruction
+- confidence: high
+- evidence: workbench/articles/drafts/2026-07-16-social-short-post-one-person-company-risk/2026-07-16-social-short-post-one-person-company-risk.md；用户在初稿开头后手动加入“AI 降低的是做软件的门槛，不是做生意的门槛”，并将其独立成段、加粗，属于用户手动改稿的强信号。
+- validation: 后续写观点型 short-post 时，测试在开头判断后补一条独立金句；检查它是否进一步压缩核心矛盾、能脱离上下文独立传播，并且没有与首段重复表达。
+- resolution: activated as RULE-20260716-001 on 2026-07-16 after user confirmation.
+- rule: 观点型社交短文可以在开头判断之后增加一句独立成段的对照式金句，用更短、更可传播的表达钉住全文核心矛盾；金句必须推进或压缩观点，不能只是重复标题。
+
+### PENDING-20260716-002
+- status: merged
+- scope: social
+- suggested_layer: instruction
+- confidence: high
+- evidence: workbench/articles/drafts/2026-07-16-social-short-post-one-person-company-risk/2026-07-16-social-short-post-one-person-company-risk.md；用户把原本塞在一个长句中的需求验证问题手动拆成 3 条短清单，属于用户手动改稿的强信号。
+- validation: 后续写 500 字以上的 short-post 时，只在行动检查、判断标准或连续问题超过 3 项时测试短清单；比较纯段落版和清单版的扫读性，并确认清单不会让正文滑向报告体。
+- resolution: merged into RULE-20260712-006 on 2026-07-16 after user confirmation, as a scoped exception to the no-bullet preference.
+- rule: 社交短文正文仍以短段落为主，但遇到 3 项左右需要读者逐项核对的判断标准或行动问题时，可以局部使用短清单降低阅读负担；清单应短、具体，只承担检查功能，不把全文写成列表。
+
 ## 条目格式
 
 ```text

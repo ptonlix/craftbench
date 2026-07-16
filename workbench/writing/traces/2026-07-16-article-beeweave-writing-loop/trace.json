@@ -1,0 +1,44 @@
+{
+  "task_type": "article",
+  "request_summary": "基于完整的文章写作、配图和风格学习链路，撰写一篇宣传 BeeWeave 的详细长文",
+  "source_refs": [
+    "workbench/inbox/web/2026-07-16-web-zhihu-com-question-2052706267966043505-answer-2057603013083129846/index.md",
+    "workbench/articles/drafts/2026-07-16-social-short-post-one-person-company-risk/2026-07-16-social-short-post-one-person-company-risk.md",
+    "workbench/writing/traces/2026-07-16-social-one-person-company-risk/trace.json",
+    "workbench/writing/style/active_style_rules.md",
+    "workbench/writing/style/evolution_log.md",
+    "README.md",
+    "README-zh.md",
+    "https://github.com/ptonlix/beeweave"
+  ],
+  "draft_path": "workbench/articles/drafts/2026-07-16-article-beeweave-writing-loop/2026-07-16-article-beeweave-writing-loop.md",
+  "output_paths": [
+    "workbench/articles/drafts/2026-07-16-article-beeweave-writing-loop/2026-07-16-article-beeweave-writing-loop.md",
+    "workbench/articles/drafts/2026-07-16-article-beeweave-writing-loop/imgs/01-flowchart-writing-loop.png",
+    "workbench/articles/drafts/2026-07-16-article-beeweave-writing-loop/imgs/02-flowchart-workbench-vault.png",
+    "workbench/articles/drafts/2026-07-16-article-beeweave-writing-loop/imgs/03-flowchart-human-agent.png",
+    "workbench/articles/drafts/2026-07-16-article-beeweave-writing-loop/imgs/04-flowchart-style-learning.png"
+  ],
+  "current_version": 1,
+  "skill_name": "beeweave-article-writer",
+  "skill_source_path": ".agents/skills/beeweave-article-writer/SKILL.md",
+  "created_at": "2026-07-16T21:39:46+08:00",
+  "updated_at": "2026-07-16T21:51:09+08:00",
+  "learning_status": "observed",
+  "revision_events": [
+    {
+      "version": 1,
+      "action": "initial_draft",
+      "summary": "以真实创作链为主线介绍BeeWeave，覆盖素材抓取、写作、人工改稿、配图、风格学习、规则进化和知识复用",
+      "learning_signal": "observed",
+      "timestamp": "2026-07-16T21:39:46+08:00"
+    },
+    {
+      "version": 1,
+      "action": "add_illustrations",
+      "summary": "整理文章专属目录，生成并插入4张16:9 screen-print流程图；第1和第4张经过精简文字提示词重生成",
+      "learning_signal": "observed",
+      "timestamp": "2026-07-16T21:51:09+08:00"
+    }
+  ]
+}

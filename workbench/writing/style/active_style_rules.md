@@ -66,9 +66,17 @@
 - status: active
 - scope: social
 - layer: instruction
-- evidence: PENDING-20260712-008；workbench/articles/published/2026-07-09-social-short-post-ai-model-race.md；workbench/articles/published/2026-07-10-social-zhihu-vibe-coding-free-resources.md
-- validated_by: user confirmation on 2026-07-12；published social samples with quality reports
-- rule: 社交短内容正文保持短段落和高信息密度，正文尽量不用 bullet；每段只推进一个信息单元，结尾落在一句有判断力的话，而不是泛泛号召。
+- evidence: PENDING-20260712-008；PENDING-20260716-002；workbench/articles/published/2026-07-09-social-short-post-ai-model-race.md；workbench/articles/published/2026-07-10-social-zhihu-vibe-coding-free-resources.md；workbench/articles/drafts/2026-07-16-social-short-post-one-person-company-risk/2026-07-16-social-short-post-one-person-company-risk.md
+- validated_by: user confirmation on 2026-07-12 and 2026-07-16；published social samples；user manual revision
+- rule: 社交短内容正文保持短段落和高信息密度，正文尽量不用 bullet；每段只推进一个信息单元。遇到约 3 项需要逐项核对的判断标准或行动问题时，可以局部使用短而具体的清单，但不要把全文写成列表。结尾落在一句有判断力的话，而不是泛泛号召。
+
+### RULE-20260716-001
+- status: active
+- scope: social
+- layer: instruction
+- evidence: PENDING-20260716-001；workbench/articles/drafts/2026-07-16-social-short-post-one-person-company-risk/2026-07-16-social-short-post-one-person-company-risk.md；workbench/writing/traces/2026-07-16-social-one-person-company-risk/trace.json
+- validated_by: user manual revision and explicit activation confirmation on 2026-07-16
+- rule: 观点型社交短文可以在开头判断之后增加一句独立成段的对照式金句，用更短、更可传播的表达钉住全文核心矛盾；金句必须推进或压缩观点，不能只是重复标题。
 
 ## 条目格式
 
