@@ -2,9 +2,10 @@
 title: "ChatCut 到底收不收费"
 type: social
 format: short-post
-status: draft
+status: published
+published: 2026-07-17T14:58:38+08:00
 created: 2026-07-13T21:47:35+08:00
-updated: 2026-07-13T22:04:15+08:00
+updated: 2026-07-17T14:58:38+08:00
 tags:
   - writing
   - ChatCut

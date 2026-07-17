@@ -43,6 +43,23 @@
       ],
       "example_candidate": "EXAMPLE-20260716-001",
       "timestamp": "2026-07-16T20:08:24+08:00"
+    },
+    {
+      "version": 1,
+      "actor": "publisher",
+      "action": "published",
+      "summary": "Moved current working draft to articles/published and marked it published.",
+      "draft_path": "workbench/articles/drafts/2026-07-16-social-short-post-one-person-company-risk/2026-07-16-social-short-post-one-person-company-risk.md",
+      "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-16-social-short-post-one-person-company-risk/2026-07-16-social-short-post-one-person-company-risk.md",
+      "learning_signal": "accepted",
+      "timestamp": "2026-07-17T14:58:38+08:00"
     }
-  ]
+  ],
+  "status": "published",
+  "final_version": 1,
+  "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-16-social-short-post-one-person-company-risk/2026-07-16-social-short-post-one-person-company-risk.md",
+  "cleanup": {
+    "retained_snapshots": [],
+    "removed_snapshots": []
+  }
 }

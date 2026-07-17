@@ -2,9 +2,10 @@
 title: "BeeWeave 自进化写作工作流"
 type: social
 format: short-post
-status: draft
+status: published
+published: 2026-07-17T14:58:38+08:00
 created: 2026-07-14T15:48:00+08:00
-updated: 2026-07-14T16:17:00+08:00
+updated: 2026-07-17T14:58:38+08:00
 tags:
   - writing
   - beeweave

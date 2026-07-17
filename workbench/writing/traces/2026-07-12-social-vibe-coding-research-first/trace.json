@@ -34,6 +34,23 @@
       "instruction_summary": "用户指出“顺序对了，质量会差很多”有语病，要求分析并修改。",
       "diff_summary": "将结尾改为“顺序对了，AI 的产出会稳很多。”，避免“差很多”被误读为质量变差。",
       "learning_signal": "strong"
+    },
+    {
+      "version": "initial",
+      "actor": "publisher",
+      "action": "published",
+      "summary": "Moved current working draft to articles/published and marked it published.",
+      "draft_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/drafts/2026-07-12-social-short-post-vibe-coding-research-first.md",
+      "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-12-social-short-post-vibe-coding-research-first.md",
+      "learning_signal": "accepted",
+      "timestamp": "2026-07-17T14:58:38+08:00"
     }
-  ]
+  ],
+  "status": "published",
+  "final_version": "initial",
+  "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-12-social-short-post-vibe-coding-research-first.md",
+  "cleanup": {
+    "retained_snapshots": [],
+    "removed_snapshots": []
+  }
 }

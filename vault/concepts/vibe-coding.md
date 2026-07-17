@@ -9,16 +9,18 @@ tags:
   - workflow
 sources:
   - "published social post: 2026-07-10-social-zhihu-vibe-coding-free-resources.md"
-base_confidence: 0.52
+  - /Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-12-social-short-post-vibe-coding-research-first.md
+base_confidence: 0.61
 lifecycle: draft
 lifecycle_changed: "2026-07-10"
 tier: supporting
 summary: >
-  Vibe Coding 是一种用 AI 把想法变成产品的编程方式，核心不是学编程，而是学拆需求、给上下文、调试 AI 代码和迭代成品。
+  Vibe Coding 是用 AI 把想法变成产品的编程方式；稳定产出还需要先研究同类项目、确认方案，再进入实现和迭代。
 provenance:
-  extracted: 0.7
-  inferred: 0.2
-  ambiguous: 0.1
+  extracted: 0.76
+  inferred: 0.19
+  ambiguous: 0.05
+updated: 2026-07-17T07:06:00Z
 ---
 
 ## 是什么
@@ -45,3 +47,7 @@ Vibe Coding 不排斥传统编程知识。有编程基础的人在调试阶段�
 ## 与 Agent 开发的关系
 
 Vibe Coding 和 [[concepts/agent-loop-engineering]] 有重叠——都涉及将 AI 从单次对话扩展为持续工作系统。Vibe Coding 更侧重个人用 AI 做产品，Agent Loop 更侧重生产级自动化系统的设计。^[inferred]
+
+## 先研究再开工
+
+[[concepts/research-first-vibe-coding]] 把 Vibe Coding 从“描述需求后立即生成”扩展为研究、方案确认和实施三个阶段。先比较同类开源项目的功能、架构、技术栈与取舍，可以降低 Agent 过早固化第一个可运行方案的风险。

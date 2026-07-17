@@ -10,18 +10,18 @@ relationships:
     type: extends
   - target: "[[synthesis/ai-agent-production-loop]]"
     type: related_to
-sources: [../beeweave, workbench/articles/published/2026-07-08-article-beeweave-creation-workbench.md]
+sources: [../beeweave, workbench/articles/published/2026-07-08-article-beeweave-creation-workbench.md, /Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-10-article-beeweave-knowledge-workbench.md, /Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-16-article-beeweave-writing-loop/2026-07-16-article-beeweave-writing-loop.md]
 summary: BeeWeave 用 workbench 保存原始输入、草稿和发布稿，用 vault 保存稳定知识页，并以发布后 ingest 形成创作复用循环。
 provenance:
   extracted: 0.84
   inferred: 0.16
   ambiguous: 0.0
-base_confidence: 0.76
+base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-08
 tier: supporting
 created: 2026-07-08T08:13:32Z
-updated: 2026-07-08T09:38:20Z
+updated: 2026-07-17T07:06:00Z
 ---
 
 # Workbench Vault Architecture
@@ -36,6 +36,7 @@ BeeWeave 的核心边界是“原始工作区”和“编译后知识库”：`w
 - `vault/` 保存 concepts、entities、skills、references、synthesis 和 projects 等稳定页面，并维护 `.manifest.json`、`index.md`、`log.md` 与 `hot.md`。
 - BeeWeave 源码仓库不应提交运行时 `vault/` 或 `workbench/` 实例目录；这些目录由用户在实际工作区通过 `bwe setup` 创建。
 - 文章级工作流允许 workbench 保持粗糙和开放，同时要求进入 vault 的内容是经过发布或确认后的稳定判断。
+- 写作 trace、配图大纲和生成提示词属于创作过程资产，应留在 workbench；只有可跨任务复用的观点与规则才进入 vault。
 
 ## Why It Matters
 
@@ -48,6 +49,7 @@ BeeWeave 的核心边界是“原始工作区”和“编译后知识库”：`w
 - [[projects/beeweave/beeweave]] — BeeWeave 项目概览。
 - [[projects/beeweave/skills/beeweave-cli-operations]] — `bwe setup` 创建运行时目录。
 - [[projects/beeweave/references/beeweave-creation-workbench-article]] — 用写作场景解释 workbench 到 vault 的发布回流。
+- [[projects/beeweave/concepts/self-evolving-writing-loop]] — 展示改稿证据如何从 workbench 经审阅变为下一次写作能力。
 - [[concepts/agent-loop-engineering]] — workbench/vault 边界服务于持续循环，而不是一次性归档。
 
 ## Open Questions

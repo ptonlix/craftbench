@@ -11,3 +11,5 @@ HERMES.md
 .claude/
 .codex/
 .agents/
+
+.DS_Store

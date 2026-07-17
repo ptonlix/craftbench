@@ -1,9 +1,10 @@
 ---
 title: "我用 BeeWeave 跑完了一次完整写作闭环"
 type: article
-status: draft
+status: published
+published: 2026-07-17T14:58:38+08:00
 created: 2026-07-16T21:39:46+08:00
-updated: 2026-07-16T22:46:23+08:00
+updated: 2026-07-17T14:58:38+08:00
 tags:
   - writing
   - BeeWeave

@@ -29,6 +29,23 @@
       "instruction_summary": "在文章最后加入 BeeWeave 项目地址、英文 Slogan 和自进化写作说明链接。",
       "diff_summary": "在核心收尾后追加 BeeWeave 英文定位、GitHub 项目地址和自进化写作文档入口，并保持链接统一放在正文末尾。",
       "learning_signal": "strong"
+    },
+    {
+      "version": 2,
+      "actor": "publisher",
+      "action": "published",
+      "summary": "Moved current working draft to articles/published and marked it published.",
+      "draft_path": "workbench/articles/drafts/2026-07-14-social-short-post-beeweave-writing-evolution.md",
+      "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-14-social-short-post-beeweave-writing-evolution.md",
+      "learning_signal": "accepted",
+      "timestamp": "2026-07-17T14:58:38+08:00"
     }
-  ]
+  ],
+  "status": "published",
+  "final_version": 2,
+  "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-14-social-short-post-beeweave-writing-evolution.md",
+  "cleanup": {
+    "retained_snapshots": [],
+    "removed_snapshots": []
+  }
 }

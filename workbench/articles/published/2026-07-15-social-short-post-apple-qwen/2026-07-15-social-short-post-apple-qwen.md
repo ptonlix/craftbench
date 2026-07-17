@@ -2,9 +2,10 @@
 title: "苹果为何选择千问"
 type: social
 format: short-post
-status: draft
+status: published
+published: 2026-07-17T14:58:38+08:00
 created: 2026-07-15T20:00:25+08:00
-updated: 2026-07-15T22:20:52+08:00
+updated: 2026-07-17T14:58:38+08:00
 tags:
   - writing
 ---

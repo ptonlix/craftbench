@@ -13,8 +13,13 @@
 - [[concepts/jit-learning]] — 在新问题出现时快速理解本质、提出高质量要求、把控结果并沉淀稳定认知的学习方式。 ( #learning #ai-era #meta-skill #judgment)
 - [[concepts/agent-skill-as-application]] — 把明确、规则可定义的工具软件能力封装成轻量应用，让 Agent 直接执行分析、报告和受控操作。 ( #agent-skill #software #automation #product)
 - [[concepts/ai-model-scaling-race]] — 2026 下半年模型竞赛的一个关键信号是，前沿实验室可能重新把竞争焦点拉回更大规模预训练和 scale law 兑现能力。 ( #ai-models #scale-law #pretraining #competition)
+- [[concepts/ai-product-iteration-race]] — AI 产品竞争还取决于持续迭代、用户注意力、生态反馈和资本支持形成的节奏飞轮。 ( #ai-products #iteration #competition #capital)
+- [[concepts/research-first-vibe-coding]] — 让 Agent 编码前先研究同类开源项目、比较架构与取舍，方案经确认后再实施。 ( #vibe-coding #research #architecture #workflow)
+- [[concepts/one-person-company-market-validation]] — AI 提升生产速度却不替代付费需求验证；一人公司需防止高效做出没人买的产品。 ( #entrepreneurship #market-validation #ai #one-person-company)
+- [[concepts/offboard-complexity-shifting]] — 把质量、容错和维护复杂度从昂贵移动端转移到可复用地面设施的系统工程思路。 ( #systems-engineering #aerospace #reusability #optimization)
 - [[projects/beeweave/concepts/workbench-vault-architecture]] — BeeWeave 用 workbench 保存原始输入、草稿和发布稿，用 vault 保存稳定知识页。 ( #beeweave #architecture #workbench #vault)
 - [[projects/beeweave/concepts/agent-skill-install-model]] — BeeWeave 将少量便携技能全局安装，把完整技能集和 bootstrap 模板安装到选定项目。 ( #beeweave #skills #agents #bootstrap)
+- [[projects/beeweave/concepts/self-evolving-writing-loop]] — 把写稿、人工改稿、候选规则学习、审阅和显式激活串成可追溯写作闭环。 ( #beeweave #writing #feedback-loop #governance)
 
 ## Entities
 
@@ -23,6 +28,8 @@
 - [[entities/awesome-vibe-coding]] — Vibe Coding 工具百科仓库，5.5K star，收录完整 AI 编程工具链。 ( #vibe-coding #github #tools #awesome-list)
 - [[entities/gohumanloop]] — 一个 Python 库，使 AI Agent 能在关键阶段动态请求人类输入、审批、反馈或对话。 ( #ai-agent #python #human-in-the-loop #framework)
 - [[entities/gohumanloop-wework]] — 把 GoHumanLoop 审批和信息获取请求接入企业微信审批体系的示例服务。 ( #ai-agent #wework #approval #go)
+- [[entities/chatcut]] — Agent 驱动的视频编辑插件，基础编辑使用既有 Agent 额度，生成新素材可能另耗 credits。 ( #chatcut #video-editing #ai-agent #pricing)
+- [[entities/qwen]] — 千问被分析为苹果中国市场系统级 AI 底座候选，综合多模态能力、开放生态与可控性是关键因素。 ( #qwen #multimodal #open-source #apple)
 - [[projects/beeweave/entities/beeweave-brain-capture-extension]] — 零构建 Chrome 扩展，可把当前网页 URL、可读文本或选中文本保存到 workbench inbox。 ( #beeweave #browser-extension #capture #workbench)
 
 ## Skills
@@ -41,6 +48,7 @@
 - [[references/ai-model-race-social-post-2026-07-09]] — 一篇社交短文，把 GPT-6、Anthropic Mythos 5、xAI Grok、DeepSeek V4 和 MiniMax M3 Pro 的传闻压缩成对 2026 下半年模型竞赛的判断。 ( #source #social-post #ai-models #scale-law)
 - [[projects/beeweave/references/beeweave-source-repository]] — BeeWeave 源码仓库作为本次 ingest 来源的范围：README、docs、bootstrap、skills、OpenSpec、CLI、测试和扩展。 ( #beeweave #source-repository #documentation #openspec)
 - [[projects/beeweave/references/beeweave-creation-workbench-article]] — 已发布文章，用写作和多 Agent 工作流解释 BeeWeave 的问题意识、创作飞轮和技能边界。 ( #beeweave #article #creation-workbench #agent)
+- [[projects/beeweave/references/published-articles-2026-07-10-to-16]] — 九篇发布稿，覆盖 BeeWeave 写作闭环、Vibe Coding、AI 产品竞争、工具定价和市场验证。 ( #beeweave #published #writing #source-batch)
 
 ## Synthesis
 

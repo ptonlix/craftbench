@@ -32,6 +32,23 @@
       "instruction_summary": "为文章生成一张主图。",
       "diff_summary": "将文章移动到专属目录，生成主图与配图 outline/prompt 文件，并在正文开头插入图片引用。",
       "learning_signal": "observed"
+    },
+    {
+      "version": "initial",
+      "actor": "publisher",
+      "action": "published",
+      "summary": "Moved current working draft to articles/published and marked it published.",
+      "draft_path": "workbench/articles/drafts/2026-07-15-social-short-post-apple-qwen/2026-07-15-social-short-post-apple-qwen.md",
+      "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-15-social-short-post-apple-qwen/2026-07-15-social-short-post-apple-qwen.md",
+      "learning_signal": "accepted",
+      "timestamp": "2026-07-17T14:58:38+08:00"
     }
-  ]
+  ],
+  "status": "published",
+  "final_version": "initial",
+  "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-15-social-short-post-apple-qwen/2026-07-15-social-short-post-apple-qwen.md",
+  "cleanup": {
+    "retained_snapshots": [],
+    "removed_snapshots": []
+  }
 }

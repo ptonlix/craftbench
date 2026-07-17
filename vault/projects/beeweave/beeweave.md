@@ -10,19 +10,19 @@ relationships:
     type: implements
   - target: "[[concepts/agent-loop-engineering]]"
     type: extends
-sources: [../beeweave, workbench/articles/published/2026-07-08-article-beeweave-creation-workbench.md]
+sources: [../beeweave, workbench/articles/published/2026-07-08-article-beeweave-creation-workbench.md, /Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-10-article-beeweave-knowledge-workbench.md, /Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-16-article-beeweave-writing-loop/2026-07-16-article-beeweave-writing-loop.md]
 source_path: ../beeweave
 summary: BeeWeave 是面向 Agent 的知识工作台，把 workbench 原始材料、vault 稳定知识和 agent skills 连接成创作与知识复用飞轮。
 provenance:
   extracted: 0.8
   inferred: 0.2
   ambiguous: 0.0
-base_confidence: 0.76
+base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-08
 tier: supporting
 created: 2026-07-08T08:13:32Z
-updated: 2026-07-08T09:38:20Z
+updated: 2026-07-17T07:06:00Z
 ---
 
 # BeeWeave
@@ -35,6 +35,7 @@ BeeWeave 是一个 agent-native creation workbench，用于围绕创作过程建
 - [[projects/beeweave/concepts/agent-skill-install-model]] — 解释默认全局技能、可选高级技能和项目本地完整技能集的安装策略。
 - [[concepts/agent-loop-engineering]] — BeeWeave 把一次性对话扩展为可持续的收集、创作、沉淀、复用循环。
 - [[concepts/prompt-context-harness-engineering]] — BeeWeave 的 skill、bootstrap 和 CLI 共同构成 Agent 可操作的上下文与执行系统。
+- [[projects/beeweave/concepts/self-evolving-writing-loop]] — 把人工改稿转化为经过审阅和确认的可复用写作规则。
 
 ## Source Layout
 
@@ -52,6 +53,8 @@ BeeWeave 的运行时工作区由 `bwe setup` 创建：`workbench/` 用于 inbox
 
 文章发布工作流把这个边界延伸成创作飞轮：素材进入 workbench，写作 skill 生成草稿，发布稿进入 `workbench/articles/published/`，再由 ingest 把高信号观点沉淀回 vault。下一轮创作可通过 query、digest 或 context pack 重新取回稳定上下文，而不是让不同 Agent 每次重新理解项目背景。
 
+完整写作案例进一步把网页抓取、草稿、人工改稿、配图、trace、风格候选审阅和知识回流连成一条可追溯链路。自动化承担重复流程，人保留素材选择、核心表达、费用授权和规则激活等判断节点。
+
 ## Related
 
 - [[projects/beeweave/skills/beeweave-cli-operations]] — `bwe` CLI 的核心命令和辅助命令。
@@ -59,6 +62,7 @@ BeeWeave 的运行时工作区由 `bwe setup` 创建：`workbench/` 用于 inbox
 - [[projects/beeweave/entities/beeweave-brain-capture-extension]] — 浏览器捕获入口。
 - [[projects/beeweave/references/beeweave-source-repository]] — 本次同步的源码仓库参考页。
 - [[projects/beeweave/references/beeweave-creation-workbench-article]] — 用写作场景解释 BeeWeave 创作飞轮的已发布文章。
+- [[projects/beeweave/references/published-articles-2026-07-10-to-16]] — 九篇发布稿形成的后续产品与写作实践批次。
 
 ## Open Questions
 

@@ -29,6 +29,23 @@
       "instruction_summary": "用户要求在原文中增加资本博弈分析，强调 AI 竞争除了拼业务，也是在烧钱和比资源厚度。",
       "diff_summary": "新增资本博弈段落，补充算力、训练、工程团队、用户补贴和生态投入等成本项；将结论改为拼聪明、业务执行、资源和持续出现在用户面前。",
       "learning_signal": "strong"
+    },
+    {
+      "version": 2,
+      "actor": "publisher",
+      "action": "published",
+      "summary": "Moved current working draft to articles/published and marked it published.",
+      "draft_path": "workbench/articles/drafts/2026-07-14-social-short-post-ai-agent-race/2026-07-14-social-short-post-ai-agent-race.md",
+      "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-14-social-short-post-ai-agent-race/2026-07-14-social-short-post-ai-agent-race.md",
+      "learning_signal": "accepted",
+      "timestamp": "2026-07-17T14:58:38+08:00"
     }
-  ]
+  ],
+  "status": "published",
+  "final_version": 2,
+  "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-14-social-short-post-ai-agent-race/2026-07-14-social-short-post-ai-agent-race.md",
+  "cleanup": {
+    "retained_snapshots": [],
+    "removed_snapshots": []
+  }
 }

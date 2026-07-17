@@ -2,9 +2,10 @@
 title: "一人公司创业中，最大的风险是什么"
 type: social
 format: short-post
-status: draft
+status: published
+published: 2026-07-17T14:58:38+08:00
 created: 2026-07-16T18:16:33+08:00
-updated: 2026-07-16T19:54:24+08:00
+updated: 2026-07-17T14:58:38+08:00
 tags:
   - writing
   - 一人公司

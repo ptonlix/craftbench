@@ -47,6 +47,23 @@
       "instruction": "最后输出整个项目地址、项目快速开始教学，并欢迎大家 Star、提 Issue、提 PR",
       "learning_signal": "strong",
       "timestamp": "2026-07-16T22:46:23+08:00"
+    },
+    {
+      "version": 2,
+      "actor": "publisher",
+      "action": "published",
+      "summary": "Moved current working draft to articles/published and marked it published.",
+      "draft_path": "workbench/articles/drafts/2026-07-16-article-beeweave-writing-loop/2026-07-16-article-beeweave-writing-loop.md",
+      "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-16-article-beeweave-writing-loop/2026-07-16-article-beeweave-writing-loop.md",
+      "learning_signal": "accepted",
+      "timestamp": "2026-07-17T14:58:38+08:00"
     }
-  ]
+  ],
+  "status": "published",
+  "final_version": 2,
+  "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-16-article-beeweave-writing-loop/2026-07-16-article-beeweave-writing-loop.md",
+  "cleanup": {
+    "retained_snapshots": [],
+    "removed_snapshots": []
+  }
 }

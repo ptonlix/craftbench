@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 12,
-    "total_pages": 28
+    "total_sources_ingested": 21,
+    "total_pages": 36
   },
   "sources": {
     "workbench/articles/published/2026-06-01-gohumanloop-langgraph/index.md": {
@@ -274,6 +274,146 @@
         "entities/awesome-vibe-coding.md",
         "skills/vibe-coding-self-learning-path.md",
         "references/vibe-coding-social-post-2026-07-10.md"
+      ]
+    },
+    "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-10-article-beeweave-knowledge-workbench.md": {
+      "ingested_at": "2026-07-17T07:12:02Z",
+      "size_bytes": 17569,
+      "modified_at": 1784271575,
+      "content_hash": "sha256:c224f976365cab0ae605e0c7d9b2e2571baccd0f137a0ea6b07f301415562efc",
+      "last_ingested": "2026-07-17T07:12:02.176706+00:00",
+      "source_type": "document",
+      "project": "beeweave",
+      "pages_created": ["projects/beeweave/references/published-articles-2026-07-10-to-16.md"],
+      "pages_updated": ["projects/beeweave/beeweave.md", "projects/beeweave/concepts/workbench-vault-architecture.md"],
+      "pages_produced": [
+        "projects/beeweave/beeweave.md",
+        "projects/beeweave/concepts/workbench-vault-architecture.md",
+        "projects/beeweave/references/published-articles-2026-07-10-to-16.md"
+      ]
+    },
+    "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-11-social-short-post-china-rocket-recovery.md": {
+      "ingested_at": "2026-07-17T07:12:02Z",
+      "size_bytes": 2126,
+      "modified_at": 1784271575,
+      "content_hash": "sha256:6b3e9863bc6cee1498dee63bbe76804e3d396f49d14dbf12fff4a53b9ae0e0b5",
+      "last_ingested": "2026-07-17T07:12:02.228953+00:00",
+      "source_type": "document",
+      "project": null,
+      "pages_created": ["concepts/offboard-complexity-shifting.md", "projects/beeweave/references/published-articles-2026-07-10-to-16.md"],
+      "pages_updated": [],
+      "pages_produced": [
+        "concepts/offboard-complexity-shifting.md",
+        "projects/beeweave/references/published-articles-2026-07-10-to-16.md"
+      ]
+    },
+    "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-12-social-short-post-vibe-coding-research-first.md": {
+      "ingested_at": "2026-07-17T07:12:02Z",
+      "size_bytes": 1961,
+      "modified_at": 1784271575,
+      "content_hash": "sha256:3fe27c7592f2b3c9be3542b780c1cf42c350d69e0ee19c7bc9a5b7fbb9fe5bba",
+      "last_ingested": "2026-07-17T07:12:02.279224+00:00",
+      "source_type": "document",
+      "project": null,
+      "pages_created": ["concepts/research-first-vibe-coding.md", "projects/beeweave/references/published-articles-2026-07-10-to-16.md"],
+      "pages_updated": ["concepts/vibe-coding.md"],
+      "pages_produced": [
+        "concepts/research-first-vibe-coding.md",
+        "concepts/vibe-coding.md",
+        "projects/beeweave/references/published-articles-2026-07-10-to-16.md"
+      ]
+    },
+    "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-13-social-short-post-chatcut-pricing.md": {
+      "ingested_at": "2026-07-17T07:12:02Z",
+      "size_bytes": 2048,
+      "modified_at": 1784271575,
+      "content_hash": "sha256:579f89aef86dce1184f4b6e79fcbeb2c0aa4c05b696d9b8fcdb35aae1e92357a",
+      "last_ingested": "2026-07-17T07:12:02.329203+00:00",
+      "source_type": "document",
+      "project": null,
+      "pages_created": ["entities/chatcut.md", "projects/beeweave/references/published-articles-2026-07-10-to-16.md"],
+      "pages_updated": [],
+      "pages_produced": [
+        "entities/chatcut.md",
+        "projects/beeweave/references/published-articles-2026-07-10-to-16.md"
+      ]
+    },
+    "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-14-social-short-post-ai-agent-race/2026-07-14-social-short-post-ai-agent-race.md": {
+      "ingested_at": "2026-07-17T07:12:02Z",
+      "size_bytes": 2204,
+      "modified_at": 1784271575,
+      "content_hash": "sha256:0e933d2bb8843fe5c03f14b7618cc9103e467d7e82803ced512c5216b70fc17b",
+      "last_ingested": "2026-07-17T07:12:02.380037+00:00",
+      "source_type": "document",
+      "project": null,
+      "pages_created": ["concepts/ai-product-iteration-race.md", "projects/beeweave/references/published-articles-2026-07-10-to-16.md"],
+      "pages_updated": [],
+      "pages_produced": [
+        "concepts/ai-product-iteration-race.md",
+        "projects/beeweave/references/published-articles-2026-07-10-to-16.md"
+      ]
+    },
+    "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-14-social-short-post-beeweave-writing-evolution.md": {
+      "ingested_at": "2026-07-17T07:12:02Z",
+      "size_bytes": 2033,
+      "modified_at": 1784271575,
+      "content_hash": "sha256:d3feeebd7889fd23d183703d0356fbc26952d87018849956712bd3cabe2b6033",
+      "last_ingested": "2026-07-17T07:12:02.430912+00:00",
+      "source_type": "document",
+      "project": "beeweave",
+      "pages_created": ["projects/beeweave/concepts/self-evolving-writing-loop.md", "projects/beeweave/references/published-articles-2026-07-10-to-16.md"],
+      "pages_updated": [],
+      "pages_produced": [
+        "projects/beeweave/concepts/self-evolving-writing-loop.md",
+        "projects/beeweave/references/published-articles-2026-07-10-to-16.md"
+      ]
+    },
+    "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-15-social-short-post-apple-qwen/2026-07-15-social-short-post-apple-qwen.md": {
+      "ingested_at": "2026-07-17T07:12:02Z",
+      "size_bytes": 1843,
+      "modified_at": 1784271575,
+      "content_hash": "sha256:a58fee9ce51920226ca56815c1a63b9e3d4a252b26fbcc5130832bd44416743c",
+      "last_ingested": "2026-07-17T07:12:02.482501+00:00",
+      "source_type": "document",
+      "project": null,
+      "pages_created": ["entities/qwen.md", "projects/beeweave/references/published-articles-2026-07-10-to-16.md"],
+      "pages_updated": [],
+      "pages_produced": [
+        "entities/qwen.md",
+        "projects/beeweave/references/published-articles-2026-07-10-to-16.md"
+      ]
+    },
+    "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-16-article-beeweave-writing-loop/2026-07-16-article-beeweave-writing-loop.md": {
+      "ingested_at": "2026-07-17T07:12:02Z",
+      "size_bytes": 19189,
+      "modified_at": 1784271575,
+      "content_hash": "sha256:86df910f99acf4e31569c7a18770801885d3df85d7cfcacba19f669e6d19e916",
+      "last_ingested": "2026-07-17T07:12:02.533755+00:00",
+      "source_type": "document",
+      "project": "beeweave",
+      "pages_created": ["projects/beeweave/concepts/self-evolving-writing-loop.md", "concepts/one-person-company-market-validation.md", "projects/beeweave/references/published-articles-2026-07-10-to-16.md"],
+      "pages_updated": ["projects/beeweave/beeweave.md", "projects/beeweave/concepts/workbench-vault-architecture.md"],
+      "pages_produced": [
+        "projects/beeweave/beeweave.md",
+        "projects/beeweave/concepts/workbench-vault-architecture.md",
+        "projects/beeweave/concepts/self-evolving-writing-loop.md",
+        "concepts/one-person-company-market-validation.md",
+        "projects/beeweave/references/published-articles-2026-07-10-to-16.md"
+      ]
+    },
+    "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-16-social-short-post-one-person-company-risk/2026-07-16-social-short-post-one-person-company-risk.md": {
+      "ingested_at": "2026-07-17T07:12:02Z",
+      "size_bytes": 3420,
+      "modified_at": 1784271575,
+      "content_hash": "sha256:1121de3198e348181354af8d073215ad7293791050af2eab2543bfd7f7e22afd",
+      "last_ingested": "2026-07-17T07:12:02.583810+00:00",
+      "source_type": "document",
+      "project": null,
+      "pages_created": ["concepts/one-person-company-market-validation.md", "projects/beeweave/references/published-articles-2026-07-10-to-16.md"],
+      "pages_updated": [],
+      "pages_produced": [
+        "concepts/one-person-company-market-validation.md",
+        "projects/beeweave/references/published-articles-2026-07-10-to-16.md"
       ]
     }
   }

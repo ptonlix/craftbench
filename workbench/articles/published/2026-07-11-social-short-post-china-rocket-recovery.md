@@ -2,9 +2,10 @@
 title: "中国火箭回收方案的系统工程优势"
 type: social
 format: short-post
-status: draft
+status: published
+published: 2026-07-17T14:58:38+08:00
 created: 2026-07-11T22:12:00+08:00
-updated: 2026-07-11T22:12:00+08:00
+updated: 2026-07-17T14:58:38+08:00
 tags:
   - writing
   - aerospace

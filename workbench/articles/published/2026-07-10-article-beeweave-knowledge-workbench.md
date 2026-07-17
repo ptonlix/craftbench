@@ -1,9 +1,10 @@
 ---
 title: "我开源了 BeeWeave，给 AI Agent 搭一个越用越懂你的知识创作台"
 type: article
-status: draft
+status: published
+published: 2026-07-17T14:58:38+08:00
 created: 2026-07-10T22:55:00+08:00
-updated: 2026-07-10T23:10:21+08:00
+updated: 2026-07-17T14:58:38+08:00
 tags:
   - beeweave
   - agent
