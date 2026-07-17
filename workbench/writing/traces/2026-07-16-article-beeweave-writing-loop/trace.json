@@ -1,6 +1,6 @@
 {
   "task_type": "article",
-  "request_summary": "基于完整的文章写作、配图和风格学习链路，撰写一篇宣传 BeeWeave 的详细长文",
+  "request_summary": "基于完整的文章写作、配图和风格学习链路，撰写一篇宣传 BeeWeave 的详细长文，并在结尾补充项目地址、快速开始教学和 Star、Issue、PR 呼吁",
   "source_refs": [
     "workbench/inbox/web/2026-07-16-web-zhihu-com-question-2052706267966043505-answer-2057603013083129846/index.md",
     "workbench/articles/drafts/2026-07-16-social-short-post-one-person-company-risk/2026-07-16-social-short-post-one-person-company-risk.md",
@@ -19,11 +19,11 @@
     "workbench/articles/drafts/2026-07-16-article-beeweave-writing-loop/imgs/03-flowchart-human-agent.png",
     "workbench/articles/drafts/2026-07-16-article-beeweave-writing-loop/imgs/04-flowchart-style-learning.png"
   ],
-  "current_version": 1,
+  "current_version": 2,
   "skill_name": "beeweave-article-writer",
   "skill_source_path": ".agents/skills/beeweave-article-writer/SKILL.md",
   "created_at": "2026-07-16T21:39:46+08:00",
-  "updated_at": "2026-07-16T21:51:09+08:00",
+  "updated_at": "2026-07-16T22:46:23+08:00",
   "learning_status": "observed",
   "revision_events": [
     {
@@ -39,6 +39,14 @@
       "summary": "整理文章专属目录，生成并插入4张16:9 screen-print流程图；第1和第4张经过精简文字提示词重生成",
       "learning_signal": "observed",
       "timestamp": "2026-07-16T21:51:09+08:00"
+    },
+    {
+      "version": 2,
+      "action": "revise_from_user_instruction",
+      "summary": "在文章结尾补充 GitHub 项目地址、基于官方 README 的五分钟快速开始教学，以及 Star、Issue、PR 社区参与呼吁",
+      "instruction": "最后输出整个项目地址、项目快速开始教学，并欢迎大家 Star、提 Issue、提 PR",
+      "learning_signal": "strong",
+      "timestamp": "2026-07-16T22:46:23+08:00"
     }
   ]
 }
