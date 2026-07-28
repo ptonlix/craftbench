@@ -1,0 +1,49 @@
+{
+  "task_type": "social",
+  "request_summary": "基于鲍勃大叔不阅读 AI 生成代码及其质量保障实践，写一篇 300 多字社交媒体博文",
+  "format": "short-post",
+  "source_material": "用户在当前对话中提供的素材",
+  "draft_path": "workbench/articles/drafts/2026-07-24-social-short-post-ai-code-review.md",
+  "output_paths": [
+    "workbench/articles/drafts/2026-07-24-social-short-post-ai-code-review.md"
+  ],
+  "current_version": 2,
+  "skill_name": "beeweave-social-writer",
+  "skill_source_path": "/Users/atlas/WorkStation/craftbench/.agents/skills/beeweave-social-writer/SKILL.md",
+  "created_at": "2026-07-24T15:17:23+08:00",
+  "updated_at": "2026-07-24T15:26:29+08:00",
+  "learning_status": "strong_user_feedback",
+  "status": "published",
+  "final_version": 2,
+  "published_path": "workbench/articles/published/2026-07-24-social-short-post-ai-code-review.md",
+  "cleanup": {
+    "retained_snapshots": [],
+    "removed_snapshots": []
+  },
+  "revision_events": [
+    {
+      "version": 1,
+      "action": "initial_draft",
+      "summary": "用争议事件开场，将重点转向审查对象从代码实现上移到测试、约束、指标与流程",
+      "learning_signal": "observed",
+      "timestamp": "2026-07-24T15:17:23+08:00"
+    },
+    {
+      "version": 2,
+      "action": "revise_from_user_instruction",
+      "user_instruction": "原稿描述太 AI，参考并复用材料内容，连开头一起替换",
+      "summary": "开头改为直接引用人物态度；删除抽象总结腔，使用生成速度、逐行审查、质量关卡和四 Agent 流水线等素材细节推进观点",
+      "learning_signal": "strong",
+      "timestamp": "2026-07-24T15:26:29+08:00"
+    },
+    {
+      "version": 2,
+      "actor": "publisher",
+      "action": "published",
+      "summary": "Moved current working draft to articles/published and marked it published.",
+      "draft_path": "workbench/articles/drafts/2026-07-24-social-short-post-ai-code-review.md",
+      "published_path": "workbench/articles/published/2026-07-24-social-short-post-ai-code-review.md",
+      "learning_signal": "accepted"
+    }
+  ]
+}

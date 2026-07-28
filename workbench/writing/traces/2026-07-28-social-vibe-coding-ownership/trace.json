@@ -1,0 +1,21 @@
+{
+  "task_type": "social",
+  "format": "short-post",
+  "draft_path": "workbench/articles/drafts/2026-07-28-social-short-post-vibe-coding-ownership.md",
+  "output_paths": [
+    "workbench/articles/drafts/2026-07-28-social-short-post-vibe-coding-ownership.md"
+  ],
+  "current_version": 1,
+  "skill_name": "beeweave-social-writer",
+  "skill_source_path": ".agents/skills/beeweave-social-writer/SKILL.md",
+  "created_at": "2026-07-28T15:55:00+08:00",
+  "updated_at": "2026-07-28T15:55:00+08:00",
+  "learning_status": "observed",
+  "revision_events": [
+    {
+      "action": "initial_draft",
+      "learning_signal": "observed",
+      "summary": "围绕 AI Coding 降低创造成本但不消除拥有成本展开分析。"
+    }
+  ]
+}

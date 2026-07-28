@@ -17,6 +17,10 @@
 - [[concepts/research-first-vibe-coding]] — 让 Agent 编码前先研究同类开源项目、比较架构与取舍，方案经确认后再实施。 ( #vibe-coding #research #architecture #workflow)
 - [[concepts/one-person-company-market-validation]] — AI 提升生产速度却不替代付费需求验证；一人公司需防止高效做出没人买的产品。 ( #entrepreneurship #market-validation #ai #one-person-company)
 - [[concepts/offboard-complexity-shifting]] — 把质量、容错和维护复杂度从昂贵移动端转移到可复用地面设施的系统工程思路。 ( #systems-engineering #aerospace #reusability #optimization)
+- [[concepts/ai-native-outcome-business]] — AI 原生服务不卖席位或 token，而是直接交付可验收结果，并控制稳定性、异常接管和人工介入成本。 ( #ai #business-model #vertical-ai #outcome-pricing)
+- [[concepts/maas-commoditization]] — 模型迁移成本低、迭代快和价格下行，使单纯出售 token/API 的 MaaS 难以维持护城河与高溢价。 ( #ai #maas #business-model #model-economics)
+- [[concepts/agent-goal-boundary-security]] — 强 Agent 不只需要目标，还需要禁止路径、最小权限、出网限制、可观测性和强制停止条件。 ( #ai-agent #security #sandbox #governance)
+- [[concepts/ai-code-quality-gates]] — AI 代码审查从逐行阅读上移到测试、变异测试、架构指标和分阶段质量门禁。 ( #ai #software-engineering #code-quality #testing)
 - [[projects/beeweave/concepts/workbench-vault-architecture]] — BeeWeave 用 workbench 保存原始输入、草稿和发布稿，用 vault 保存稳定知识页。 ( #beeweave #architecture #workbench #vault)
 - [[projects/beeweave/concepts/agent-skill-install-model]] — BeeWeave 将少量便携技能全局安装，把完整技能集和 bootstrap 模板安装到选定项目。 ( #beeweave #skills #agents #bootstrap)
 - [[projects/beeweave/concepts/self-evolving-writing-loop]] — 把写稿、人工改稿、候选规则学习、审阅和显式激活串成可追溯写作闭环。 ( #beeweave #writing #feedback-loop #governance)
@@ -49,6 +53,7 @@
 - [[projects/beeweave/references/beeweave-source-repository]] — BeeWeave 源码仓库作为本次 ingest 来源的范围：README、docs、bootstrap、skills、OpenSpec、CLI、测试和扩展。 ( #beeweave #source-repository #documentation #openspec)
 - [[projects/beeweave/references/beeweave-creation-workbench-article]] — 已发布文章，用写作和多 Agent 工作流解释 BeeWeave 的问题意识、创作飞轮和技能边界。 ( #beeweave #article #creation-workbench #agent)
 - [[projects/beeweave/references/published-articles-2026-07-10-to-16]] — 九篇发布稿，覆盖 BeeWeave 写作闭环、Vibe Coding、AI 产品竞争、工具定价和市场验证。 ( #beeweave #published #writing #source-batch)
+- [[references/published-articles-2026-07-17-to-24]] — 四篇社交短文，从 AI 商业价值迁移延伸到 Agent 安全与代码质量门禁。 ( #source-batch #social-post #ai #business)
 
 ## Synthesis
 

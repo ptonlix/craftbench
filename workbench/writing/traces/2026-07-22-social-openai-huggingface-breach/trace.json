@@ -1,0 +1,63 @@
+{
+  "task_type": "social",
+  "request_summary": "基于 2026 年 7 月 22 日 OpenAI 模型突破沙盒并进入 Hugging Face 系统的新闻，撰写约 500 字社交媒体博文，先概述事件，再输出剖析、心得与金句。",
+  "format": "short-post",
+  "source_references": [
+    "用户提供的科创板日报新闻全文",
+    "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+    "https://huggingface.co/blog/security-incident-july-2026"
+  ],
+  "draft_path": "workbench/articles/drafts/2026-07-22-social-short-post-openai-huggingface-breach/2026-07-22-social-short-post-openai-huggingface-breach.md",
+  "output_paths": [
+    "workbench/articles/drafts/2026-07-22-social-short-post-openai-huggingface-breach/2026-07-22-social-short-post-openai-huggingface-breach.md",
+    "workbench/articles/drafts/2026-07-22-social-short-post-openai-huggingface-breach/imgs/02-poster-agent-sandbox-boundary-corrected.png"
+  ],
+  "current_version": 3,
+  "skill_name": "beeweave-social-writer",
+  "skill_source_path": "/Users/atlas/WorkStation/craftbench/.agents/skills/beeweave-social-writer/SKILL.md",
+  "created_at": "2026-07-22T21:14:47+08:00",
+  "updated_at": "2026-07-22T21:33:00+08:00",
+  "learning_status": "observed",
+  "status": "published",
+  "final_version": 3,
+  "published_path": "workbench/articles/published/2026-07-22-social-short-post-openai-huggingface-breach/2026-07-22-social-short-post-openai-huggingface-breach.md",
+  "cleanup": {
+    "retained_snapshots": [],
+    "removed_snapshots": []
+  },
+  "revision_events": [
+    {
+      "version": 1,
+      "action": "initial_draft",
+      "learning_signal": "observed",
+      "summary": "以目标对齐和行为边界的错位为主轴，结合 GLM 5.2 本地取证提炼控制权价值。",
+      "timestamp": "2026-07-22T21:14:47+08:00"
+    },
+    {
+      "version": 2,
+      "action": "revise_from_user_instruction",
+      "user_instruction": "把三个核心观点分别独立成段，并加粗提示，优化排版。",
+      "learning_signal": "strong",
+      "summary": "将目标执着、Agent 路径边界、开源控制权三个观点独立成段并加粗。",
+      "timestamp": "2026-07-22T21:22:04+08:00"
+    },
+    {
+      "version": 3,
+      "action": "revise_from_user_instruction",
+      "user_instruction": "使用 beeweave-article-illustration 按推荐方案生成社交媒体宣传说明图片。",
+      "learning_signal": "observed",
+      "summary": "生成暖色丝网印刷风格 16:9 宣传海报；第一版因底部裁切保留为候选，修正版通过文字与构图检查并插入文章。",
+      "output_path": "workbench/articles/drafts/2026-07-22-social-short-post-openai-huggingface-breach/imgs/02-poster-agent-sandbox-boundary-corrected.png",
+      "timestamp": "2026-07-22T21:33:00+08:00"
+    },
+    {
+      "version": 3,
+      "actor": "publisher",
+      "action": "published",
+      "summary": "Moved current working draft to articles/published and marked it published.",
+      "draft_path": "workbench/articles/drafts/2026-07-22-social-short-post-openai-huggingface-breach/2026-07-22-social-short-post-openai-huggingface-breach.md",
+      "published_path": "workbench/articles/published/2026-07-22-social-short-post-openai-huggingface-breach/2026-07-22-social-short-post-openai-huggingface-breach.md",
+      "learning_signal": "accepted"
+    }
+  ]
+}

@@ -13,17 +13,18 @@ relationships:
 sources:
   - /Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-16-social-short-post-one-person-company-risk/2026-07-16-social-short-post-one-person-company-risk.md
   - /Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-16-article-beeweave-writing-loop/2026-07-16-article-beeweave-writing-loop.md
-summary: AI 提升一人公司的生产速度，却不替代需求、预算、决策权和付款验证；最大风险是高效生产无市场需求的产品。
+  - /Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-17-social-short-post-ai-outcomes-not-software.md
+summary: AI 提升生产速度却不替代需求与付款验证；更强的商业模式应围绕客户可验收结果，而不是软件席位或模型用量。
 provenance:
   extracted: 0.78
   inferred: 0.20
   ambiguous: 0.02
-base_confidence: 0.61
+base_confidence: 0.82
 lifecycle: draft
 lifecycle_changed: 2026-07-17
 tier: supporting
 created: 2026-07-17T07:06:00Z
-updated: 2026-07-17T07:06:00Z
+updated: 2026-07-24T23:20:12+08:00
 ---
 
 # One-Person Company Market Validation
@@ -45,6 +46,12 @@ AI 降低的是软件生产门槛，不是做生意的门槛。一人公司最�
 - 验证自己是否拥有更深的场景认知。
 - 在产品不完美时先讲方案、做演示页、访谈客户或尝试收取小额费用。
 - 把真实咨询、报价和付款作为比口头认可更强的信号。
+
+## From Product to Outcome
+
+- AI 原生业务可以把交付单位从软件席位转向客户可验收的结果。
+- 结果型服务仍需同时验证稳定性、人工接管成本和规模化毛利，不能只证明模型能完成一次任务。
+- [[concepts/ai-native-outcome-business]] 把市场验证进一步延伸到结果定义、交付责任和成果定价。
 
 ## Related
 

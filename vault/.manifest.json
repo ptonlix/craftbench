@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 21,
-    "total_pages": 36
+    "total_sources_ingested": 25,
+    "total_pages": 41
   },
   "sources": {
     "workbench/articles/published/2026-06-01-gohumanloop-langgraph/index.md": {
@@ -284,8 +284,13 @@
       "last_ingested": "2026-07-17T07:12:02.176706+00:00",
       "source_type": "document",
       "project": "beeweave",
-      "pages_created": ["projects/beeweave/references/published-articles-2026-07-10-to-16.md"],
-      "pages_updated": ["projects/beeweave/beeweave.md", "projects/beeweave/concepts/workbench-vault-architecture.md"],
+      "pages_created": [
+        "projects/beeweave/references/published-articles-2026-07-10-to-16.md"
+      ],
+      "pages_updated": [
+        "projects/beeweave/beeweave.md",
+        "projects/beeweave/concepts/workbench-vault-architecture.md"
+      ],
       "pages_produced": [
         "projects/beeweave/beeweave.md",
         "projects/beeweave/concepts/workbench-vault-architecture.md",
@@ -300,7 +305,10 @@
       "last_ingested": "2026-07-17T07:12:02.228953+00:00",
       "source_type": "document",
       "project": null,
-      "pages_created": ["concepts/offboard-complexity-shifting.md", "projects/beeweave/references/published-articles-2026-07-10-to-16.md"],
+      "pages_created": [
+        "concepts/offboard-complexity-shifting.md",
+        "projects/beeweave/references/published-articles-2026-07-10-to-16.md"
+      ],
       "pages_updated": [],
       "pages_produced": [
         "concepts/offboard-complexity-shifting.md",
@@ -315,8 +323,13 @@
       "last_ingested": "2026-07-17T07:12:02.279224+00:00",
       "source_type": "document",
       "project": null,
-      "pages_created": ["concepts/research-first-vibe-coding.md", "projects/beeweave/references/published-articles-2026-07-10-to-16.md"],
-      "pages_updated": ["concepts/vibe-coding.md"],
+      "pages_created": [
+        "concepts/research-first-vibe-coding.md",
+        "projects/beeweave/references/published-articles-2026-07-10-to-16.md"
+      ],
+      "pages_updated": [
+        "concepts/vibe-coding.md"
+      ],
       "pages_produced": [
         "concepts/research-first-vibe-coding.md",
         "concepts/vibe-coding.md",
@@ -331,7 +344,10 @@
       "last_ingested": "2026-07-17T07:12:02.329203+00:00",
       "source_type": "document",
       "project": null,
-      "pages_created": ["entities/chatcut.md", "projects/beeweave/references/published-articles-2026-07-10-to-16.md"],
+      "pages_created": [
+        "entities/chatcut.md",
+        "projects/beeweave/references/published-articles-2026-07-10-to-16.md"
+      ],
       "pages_updated": [],
       "pages_produced": [
         "entities/chatcut.md",
@@ -346,7 +362,10 @@
       "last_ingested": "2026-07-17T07:12:02.380037+00:00",
       "source_type": "document",
       "project": null,
-      "pages_created": ["concepts/ai-product-iteration-race.md", "projects/beeweave/references/published-articles-2026-07-10-to-16.md"],
+      "pages_created": [
+        "concepts/ai-product-iteration-race.md",
+        "projects/beeweave/references/published-articles-2026-07-10-to-16.md"
+      ],
       "pages_updated": [],
       "pages_produced": [
         "concepts/ai-product-iteration-race.md",
@@ -361,7 +380,10 @@
       "last_ingested": "2026-07-17T07:12:02.430912+00:00",
       "source_type": "document",
       "project": "beeweave",
-      "pages_created": ["projects/beeweave/concepts/self-evolving-writing-loop.md", "projects/beeweave/references/published-articles-2026-07-10-to-16.md"],
+      "pages_created": [
+        "projects/beeweave/concepts/self-evolving-writing-loop.md",
+        "projects/beeweave/references/published-articles-2026-07-10-to-16.md"
+      ],
       "pages_updated": [],
       "pages_produced": [
         "projects/beeweave/concepts/self-evolving-writing-loop.md",
@@ -376,7 +398,10 @@
       "last_ingested": "2026-07-17T07:12:02.482501+00:00",
       "source_type": "document",
       "project": null,
-      "pages_created": ["entities/qwen.md", "projects/beeweave/references/published-articles-2026-07-10-to-16.md"],
+      "pages_created": [
+        "entities/qwen.md",
+        "projects/beeweave/references/published-articles-2026-07-10-to-16.md"
+      ],
       "pages_updated": [],
       "pages_produced": [
         "entities/qwen.md",
@@ -391,8 +416,15 @@
       "last_ingested": "2026-07-17T07:12:02.533755+00:00",
       "source_type": "document",
       "project": "beeweave",
-      "pages_created": ["projects/beeweave/concepts/self-evolving-writing-loop.md", "concepts/one-person-company-market-validation.md", "projects/beeweave/references/published-articles-2026-07-10-to-16.md"],
-      "pages_updated": ["projects/beeweave/beeweave.md", "projects/beeweave/concepts/workbench-vault-architecture.md"],
+      "pages_created": [
+        "projects/beeweave/concepts/self-evolving-writing-loop.md",
+        "concepts/one-person-company-market-validation.md",
+        "projects/beeweave/references/published-articles-2026-07-10-to-16.md"
+      ],
+      "pages_updated": [
+        "projects/beeweave/beeweave.md",
+        "projects/beeweave/concepts/workbench-vault-architecture.md"
+      ],
       "pages_produced": [
         "projects/beeweave/beeweave.md",
         "projects/beeweave/concepts/workbench-vault-architecture.md",
@@ -409,11 +441,51 @@
       "last_ingested": "2026-07-17T07:12:02.583810+00:00",
       "source_type": "document",
       "project": null,
-      "pages_created": ["concepts/one-person-company-market-validation.md", "projects/beeweave/references/published-articles-2026-07-10-to-16.md"],
+      "pages_created": [
+        "concepts/one-person-company-market-validation.md",
+        "projects/beeweave/references/published-articles-2026-07-10-to-16.md"
+      ],
       "pages_updated": [],
       "pages_produced": [
         "concepts/one-person-company-market-validation.md",
         "projects/beeweave/references/published-articles-2026-07-10-to-16.md"
+      ]
+    },
+    "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-17-social-short-post-ai-outcomes-not-software.md": {
+      "content_hash": "sha256:b7bb6adb56eb581fb71063313a00c605ab72e2e4193853cf0275f2621ed17a67",
+      "last_ingested": "2026-07-24T15:24:18.706231+00:00",
+      "pages_produced": [
+        "concepts/ai-native-outcome-business.md",
+        "concepts/one-person-company-market-validation.md",
+        "references/published-articles-2026-07-17-to-24.md"
+      ]
+    },
+    "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-19-social-short-post-kimi-k3-maas-bear-case/2026-07-19-social-short-post-kimi-k3-maas-bear-case.md": {
+      "content_hash": "sha256:81b7c42af8b0578f0b320fb818102642d119eb60de5668e50fb39645794f718d",
+      "last_ingested": "2026-07-24T15:24:18.757862+00:00",
+      "pages_produced": [
+        "concepts/maas-commoditization.md",
+        "references/published-articles-2026-07-17-to-24.md"
+      ]
+    },
+    "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-22-social-short-post-openai-huggingface-breach/2026-07-22-social-short-post-openai-huggingface-breach.md": {
+      "content_hash": "sha256:09b3333622a9977e4ba34f3a4a411fd1e91628cfff1ad36ba8bdcb61aa42eaf4",
+      "last_ingested": "2026-07-24T15:24:18.808609+00:00",
+      "pages_produced": [
+        "concepts/agent-goal-boundary-security.md",
+        "concepts/agent-loop-engineering.md",
+        "synthesis/ai-agent-production-loop.md",
+        "references/published-articles-2026-07-17-to-24.md"
+      ]
+    },
+    "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-24-social-short-post-ai-code-review.md": {
+      "content_hash": "sha256:330dac48305f69b06fe356e55429477fe1973e86d513da4a64e5a7524c0be984",
+      "last_ingested": "2026-07-24T15:24:18.858578+00:00",
+      "pages_produced": [
+        "concepts/ai-code-quality-gates.md",
+        "concepts/agent-loop-engineering.md",
+        "synthesis/ai-agent-production-loop.md",
+        "references/published-articles-2026-07-17-to-24.md"
       ]
     }
   }

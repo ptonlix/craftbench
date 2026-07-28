@@ -1,0 +1,52 @@
+{
+  "task_type": "social",
+  "request_summary": "基于用户提供的 Kimi K3、模型迁移成本、MaaS 价格战和 AI Capex 素材，撰写约 500 字的看空社交博文",
+  "format": "short-post",
+  "source_material": "user-provided",
+  "draft_path": "workbench/articles/drafts/2026-07-19-social-short-post-kimi-k3-maas-bear-case/2026-07-19-social-short-post-kimi-k3-maas-bear-case.md",
+  "output_paths": [
+    "workbench/articles/drafts/2026-07-19-social-short-post-kimi-k3-maas-bear-case/2026-07-19-social-short-post-kimi-k3-maas-bear-case.md",
+    "workbench/articles/drafts/2026-07-19-social-short-post-kimi-k3-maas-bear-case/imgs/01-poster-strong-model-weak-business.png",
+    "workbench/articles/drafts/2026-07-19-social-short-post-kimi-k3-maas-bear-case/imgs/02-poster-three-business-layers.png"
+  ],
+  "current_version": 2,
+  "skill_name": "beeweave-social-writer",
+  "skill_source_path": ".agents/skills/beeweave-social-writer/SKILL.md",
+  "created_at": "2026-07-19T23:14:26+08:00",
+  "updated_at": "2026-07-20T00:18:00+08:00",
+  "learning_status": "strong",
+  "status": "published",
+  "final_version": 2,
+  "published_path": "workbench/articles/published/2026-07-19-social-short-post-kimi-k3-maas-bear-case/2026-07-19-social-short-post-kimi-k3-maas-bear-case.md",
+  "cleanup": {
+    "retained_snapshots": [],
+    "removed_snapshots": []
+  },
+  "revision_events": [
+    {
+      "version": 1,
+      "action": "initial_draft",
+      "learning_signal": "observed",
+      "instruction_summary": "输出一篇约 500 字、基于给定素材的看空博文",
+      "diff_summary": "初稿完成，围绕模型低迁移成本、MaaS 商业死局与结果交付展开",
+      "created_at": "2026-07-19T23:14:26+08:00"
+    },
+    {
+      "version": 2,
+      "action": "revise_from_user_instruction",
+      "learning_signal": "strong",
+      "instruction_summary": "不要把嵌入原有业务流视为足够好的大模型生意，应强调创造新商业场景和模式，进而改变收入结构",
+      "diff_summary": "将商业出路从旧流程提效改为新场景和新增收入，补充旧预算与新增收入、降本与创收之间的价值差异",
+      "created_at": "2026-07-19T23:53:00+08:00"
+    },
+    {
+      "version": 2,
+      "actor": "publisher",
+      "action": "published",
+      "summary": "Moved current working draft to articles/published and marked it published.",
+      "draft_path": "workbench/articles/drafts/2026-07-19-social-short-post-kimi-k3-maas-bear-case/2026-07-19-social-short-post-kimi-k3-maas-bear-case.md",
+      "published_path": "workbench/articles/published/2026-07-19-social-short-post-kimi-k3-maas-bear-case/2026-07-19-social-short-post-kimi-k3-maas-bear-case.md",
+      "learning_signal": "accepted"
+    }
+  ]
+}

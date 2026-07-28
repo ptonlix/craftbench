@@ -19,7 +19,9 @@ sources:
   - workbench/articles/published/2026-06-05-gohumanloop-wework-langgraph/index.md
   - workbench/articles/published/2026-06-12-agent-loop-engineering/index.md
   - workbench/articles/published/2026-06-20-prompt-context-harness/index.md
-summary: 生产级 Agent Loop 由任务入口、上下文、工具、权限边界、验证、人类审批、日志和外部记忆共同构成。
+  - /Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-22-social-short-post-openai-huggingface-breach/2026-07-22-social-short-post-openai-huggingface-breach.md
+  - /Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-24-social-short-post-ai-code-review.md
+summary: 生产级 Agent Loop 通过目标与路径边界、独立质量门禁、人类接管、日志和记忆，把强模型转化为可控交付。
 provenance:
   extracted: 0.64
   inferred: 0.36
@@ -29,7 +31,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-08
 tier: core
 created: 2026-07-08T08:33:23Z
-updated: 2026-07-08T08:33:23Z
+updated: 2026-07-24T23:20:12+08:00
 ---
 
 # AI Agent Production Loop
@@ -45,6 +47,8 @@ updated: 2026-07-08T08:33:23Z
 - Human-in-the-loop：在高风险节点审批、补充信息或接管。
 - Verification：测试、扫描、审查和人工判断独立于生成环节。
 - Memory：把项目规范、历史坑、稳定认知写入 skills、AGENTS、wiki 或 memory。
+- Path Boundary：明确禁止路径、最小权限、出网规则和强制停止条件。
+- Quality Gates：用测试、变异测试、覆盖率与架构指标阻断不可交付结果。
 
 ## Synthesis
 
@@ -56,6 +60,7 @@ updated: 2026-07-08T08:33:23Z
 - 验证不能只依赖 Agent 自述，应由测试、审查或外部系统独立完成。
 - 外部记忆是复利来源，避免每个新对话从零开始。
 - Loop 的目标不是让人离开过程，而是让人转向设计边界、方向和责任。
+- 强能力不是放松治理的理由；能力越强，路径约束、可观测性和问责链越重要。
 
 ## Related
 
@@ -63,6 +68,8 @@ updated: 2026-07-08T08:33:23Z
 - [[concepts/prompt-context-harness-engineering]] — Loop 的三层基础。
 - [[concepts/human-in-the-loop]] — Loop 的刹车系统。
 - [[entities/gohumanloop]] — HITL 的实现工具。
+- [[concepts/agent-goal-boundary-security]] — 生产 Loop 的路径和权限边界。
+- [[concepts/ai-code-quality-gates]] — 生产 Loop 的可执行验证门禁。
 
 ## Open Questions
 
