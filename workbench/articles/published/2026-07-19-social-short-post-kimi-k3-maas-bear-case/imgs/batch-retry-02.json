@@ -1,0 +1,15 @@
+{
+  "tasks": [
+    {
+      "id": "illustration-02-retry",
+      "promptFiles": [
+        "prompts/02-poster-three-business-layers.md"
+      ],
+      "image": "02-poster-three-business-layers.png",
+      "provider": "openai",
+      "model": "gpt-image-2",
+      "ar": "16:9",
+      "quality": "2k"
+    }
+  ]
+}

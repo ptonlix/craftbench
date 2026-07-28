@@ -1,0 +1,26 @@
+{
+  "tasks": [
+    {
+      "id": "illustration-01",
+      "promptFiles": [
+        "prompts/01-poster-strong-model-weak-business.md"
+      ],
+      "image": "01-poster-strong-model-weak-business.png",
+      "provider": "openai",
+      "model": "gpt-image-2",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "illustration-02",
+      "promptFiles": [
+        "prompts/02-poster-three-business-layers.md"
+      ],
+      "image": "02-poster-three-business-layers.png",
+      "provider": "openai",
+      "model": "gpt-image-2",
+      "ar": "16:9",
+      "quality": "2k"
+    }
+  ]
+}
