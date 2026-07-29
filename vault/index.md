@@ -6,7 +6,7 @@
 
 ## Concepts
 
-- [[concepts/vibe-coding]] — 用 AI 把想法变成产品的编程方式，核心是拆需求、给 AI 完整上下文、调试 AI 生成代码和迭代成品的能力。 ( #vibe-coding #ai-programming #learning #llm)
+- [[concepts/vibe-coding]] — AI 降低软件首版生产成本，但长期拥有仍需要研究、架构、质量控制和明确维护责任。 ( #vibe-coding #ai-programming #learning #llm)
 - [[concepts/human-in-the-loop]] — 在 Agent 关键动作前引入人工输入、审批、反馈或接管的控制机制，用来保留判断权与可追溯性。 ( #ai-agent #governance #safety #workflow)
 - [[concepts/agent-loop-engineering]] — 让 AI 从单次对话变成有入口、上下文、工具、验证、记忆和接管点的持续工作系统。 ( #ai-agent #engineering #workflow #automation)
 - [[concepts/prompt-context-harness-engineering]] — Prompt、Context、Harness 分别决定任务表达、信息质量和可靠执行环境。 ( #ai-agent #prompt #context #harness)
@@ -47,6 +47,7 @@
 
 ## References
 
+- [[references/vibe-coding-ownership-social-post-2026-07-28]] — 一篇社交短文，区分 AI 降低的软件首版创造成本与团队长期承担的软件拥有成本。 ( #vibe-coding #software-maintenance #social-post #source)
 - [[references/vibe-coding-social-post-2026-07-10]] — 一篇知乎短文，揭露 Vibe Coding 付费课 99% 内容来自三个免费开源仓库。 ( #vibe-coding #social-post #zhihu #source)
 - [[references/published-article-batch-2026-06]] — 2026 年 6 月已发布文章批次，覆盖 GoHumanLoop、HITL、Agent skill、Loop Engineering、Prompt/Context/Harness 和 JIT Learning。 ( #source-batch #article #ai-agent #workbench)
 - [[references/ai-model-race-social-post-2026-07-09]] — 一篇社交短文，把 GPT-6、Anthropic Mythos 5、xAI Grok、DeepSeek V4 和 MiniMax M3 Pro 的传闻压缩成对 2026 下半年模型竞赛的判断。 ( #source #social-post #ai-models #scale-law)

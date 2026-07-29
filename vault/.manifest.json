@@ -487,6 +487,14 @@
         "synthesis/ai-agent-production-loop.md",
         "references/published-articles-2026-07-17-to-24.md"
       ]
+    },
+    "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-28-social-short-post-vibe-coding-ownership.md": {
+      "content_hash": "sha256:97a7a3c3877254a87a5739b94c853bb6b56b5442fcdc822e0147b7a065568f66",
+      "last_ingested": "2026-07-29T09:21:16.502999+00:00",
+      "pages_produced": [
+        "concepts/vibe-coding.md",
+        "references/vibe-coding-ownership-social-post-2026-07-28.md"
+      ]
     }
   }
 }

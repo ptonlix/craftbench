@@ -1,17 +1,18 @@
 ---
 title: Hot Cache
-updated: 2026-07-24T23:20:12+08:00
+updated: 2026-07-29T17:20:11+08:00
 ---
 
 ## Recent Activity
 
+- Ingested a Vibe Coding ownership-cost essay, extending the topic from fast creation into maintenance responsibility, total cost, and build-versus-buy boundaries.
 - Ingested four published social posts from 2026-07-17 through 2026-07-24, connecting AI outcome businesses and MaaS commoditization with Agent path security and code quality gates.
 - Ingested nine published pieces from 2026-07-10 through 2026-07-16, strengthening BeeWeave's workbench/vault model and compiling its complete human-governed writing loop.
-- Added a validation cluster linking research-first Vibe Coding with one-person-company market validation: technical speed must be preceded by architecture and customer evidence.
 
 ## Active Threads
 
 - Vibe Coding self-learning: [[concepts/vibe-coding]], [[skills/vibe-coding-self-learning-path]], and the three repo entities ([[entities/easy-vibe]], [[entities/vibe-coding-cn]], [[entities/awesome-vibe-coding]]) form a free 1-3 month route from zero to team-level output.
+- Vibe Coding ownership: [[concepts/vibe-coding]], [[concepts/ai-code-quality-gates]], and [[references/vibe-coding-ownership-social-post-2026-07-28]] connect cheap first versions to long-term architecture, maintenance, and accountability.
 - BeeWeave creation flywheel: [[projects/beeweave/beeweave]], [[projects/beeweave/concepts/workbench-vault-architecture]], [[projects/beeweave/concepts/agent-skill-install-model]], and [[projects/beeweave/references/beeweave-creation-workbench-article]] connect source material, writing, publishing, ingest, and reuse.
 - Self-evolving writing: [[projects/beeweave/concepts/self-evolving-writing-loop]] connects trace evidence, manual edits, pending rules, review, activation, and rollback.
 - Build-after-evidence: [[concepts/research-first-vibe-coding]] and [[concepts/one-person-company-market-validation]] extend research from open-source architecture to paying-customer evidence.
@@ -34,5 +35,6 @@ updated: 2026-07-24T23:20:12+08:00
 - Human approval is a system boundary and safety mechanism, not a rejection of automation.
 - As model access becomes easier to switch, durable value moves from token supply toward measurable customer outcomes.
 - Stronger Agent autonomy requires explicit path constraints, independent verification, observability, stopping controls, and accountability.
+- AI makes the first version cheap, but long-term software ownership still requires accountable maintainers and a deliberate build-versus-buy boundary.
 
 ## Flagged Contradictions

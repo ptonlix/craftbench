@@ -10,17 +10,18 @@ tags:
 sources:
   - "published social post: 2026-07-10-social-zhihu-vibe-coding-free-resources.md"
   - /Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-12-social-short-post-vibe-coding-research-first.md
-base_confidence: 0.61
+  - /Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-28-social-short-post-vibe-coding-ownership.md
+base_confidence: 0.74
 lifecycle: draft
 lifecycle_changed: "2026-07-10"
 tier: supporting
 summary: >
-  Vibe Coding 是用 AI 把想法变成产品的编程方式；稳定产出还需要先研究同类项目、确认方案，再进入实现和迭代。
+  Vibe Coding 降低软件首版生产成本，但稳定产出和长期拥有仍需要研究、架构、测试、迁移、监控与明确责任。
 provenance:
   extracted: 0.76
   inferred: 0.19
   ambiguous: 0.05
-updated: 2026-07-17T07:06:00Z
+updated: 2026-07-29T17:20:11+08:00
 ---
 
 ## 是什么
@@ -51,3 +52,11 @@ Vibe Coding 和 [[concepts/agent-loop-engineering]] 有重叠——都涉及将 
 ## 先研究再开工
 
 [[concepts/research-first-vibe-coding]] 把 Vibe Coding 从“描述需求后立即生成”扩展为研究、方案确认和实施三个阶段。先比较同类开源项目的功能、架构、技术栈与取舍，可以降低 Agent 过早固化第一个可运行方案的风险。
+
+## 创造成本与拥有成本
+
+Vibe Coding 显著降低的是软件第一版的生产成本：一个人可以在几小时内生成页面、接口和数据库。但软件生命周期远长于首次开发，后续仍要承担权限、数据迁移、通知、依赖升级、监控、备份、安全和故障恢复等责任。
+
+AI 擅长局部修改，却不天然掌握整个系统的责任边界。没有明确代码所有者时，连续的局部修补会增加系统理解和维护成本。因此，自研与购买的判断标准不应只是“能否快速做出来”，而应是团队能否控制复杂度，并愿意长期承担维护责任。
+
+一次性脚本、数据迁移、Glue Code 和边界清晰的团队专属工具适合用 AI 加速；复制 Jira、Notion、Slack 这类复杂生态产品则需要谨慎。更稳健的边界是：竞争优势自己做，通用能力尽量买。

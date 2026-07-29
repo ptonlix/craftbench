@@ -5,17 +5,43 @@
   "output_paths": [
     "workbench/articles/drafts/2026-07-28-social-short-post-vibe-coding-ownership.md"
   ],
-  "current_version": 1,
+  "current_version": 3,
+  "status": "published",
+  "final_version": "v3",
+  "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-28-social-short-post-vibe-coding-ownership.md",
+  "cleanup": {
+    "retained_snapshots": [],
+    "removed_snapshots": []
+  },
   "skill_name": "beeweave-social-writer",
   "skill_source_path": ".agents/skills/beeweave-social-writer/SKILL.md",
   "created_at": "2026-07-28T15:55:00+08:00",
-  "updated_at": "2026-07-28T15:55:00+08:00",
+  "updated_at": "2026-07-28T20:31:00+08:00",
   "learning_status": "observed",
   "revision_events": [
     {
       "action": "initial_draft",
       "learning_signal": "observed",
       "summary": "围绕 AI Coding 降低创造成本但不消除拥有成本展开分析。"
+    },
+    {
+      "action": "revise_from_user_instruction",
+      "learning_signal": "strong",
+      "summary": "根据用户要求增加今天在 X 上看到案例的开头故事，改善进入主题的过渡。"
+    },
+    {
+      "action": "revise_from_user_instruction",
+      "learning_signal": "strong",
+      "summary": "删除以几十到几百行代码界定团队工具规模的表述，改以边界、复杂度和维护责任判断是否适合自研。"
+    },
+    {
+      "version": "v3",
+      "actor": "publisher",
+      "action": "published",
+      "summary": "Moved current working draft to articles/published and marked it published.",
+      "draft_path": "workbench/articles/drafts/2026-07-28-social-short-post-vibe-coding-ownership.md",
+      "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-28-social-short-post-vibe-coding-ownership.md",
+      "learning_signal": "accepted"
     }
   ]
 }

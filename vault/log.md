@@ -1,5 +1,6 @@
 ## Log
 
+- [2026-07-29T17:20:11+08:00] INGEST source="/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-28-social-short-post-vibe-coding-ownership.md" pages_updated=1 pages_created=1 mode=append
 - [2026-07-10T02:51:00Z] INGEST source="workbench/articles/published/2026-07-10-social-zhihu-vibe-coding-free-resources.md" pages_updated=0 pages_created=6 mode=append
 - [2026-07-02T02:49:38Z] INGEST source="workbench/articles/published" pages_updated=0 pages_created=12 mode=append
 - [2026-07-08T08:13:32Z] INGEST source="../beeweave" pages_updated=0 pages_created=7 mode=append
