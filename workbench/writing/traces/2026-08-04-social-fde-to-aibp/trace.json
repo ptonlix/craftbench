@@ -1,0 +1,44 @@
+{
+  "task_type": "social",
+  "request_summary": "基于用户提供的 FDE 与 AIBP 素材，撰写约 800 字社交媒体博文，突出发展过程、个人判断和互动讨论。",
+  "platform_or_format": "short-post",
+  "source_material": "current conversation user-provided material",
+  "draft_path": "workbench/articles/drafts/2026-08-04-social-short-post-fde-to-aibp/2026-08-04-social-short-post-fde-to-aibp.md",
+  "output_paths": [
+    "workbench/articles/drafts/2026-08-04-social-short-post-fde-to-aibp/2026-08-04-social-short-post-fde-to-aibp.md",
+    "workbench/articles/drafts/2026-08-04-social-short-post-fde-to-aibp/imgs/01-comparison-fde-to-aibp.png"
+  ],
+  "current_version": 3,
+  "skill_name": "beeweave-social-writer",
+  "skill_source_path": "/Users/atlas/WorkStation/craftbench/.agents/skills/beeweave-social-writer/SKILL.md",
+  "skill_version": "sha256:51f69be012edab41",
+  "created_at": "2026-08-04T22:45:00+08:00",
+  "updated_at": "2026-08-04T22:53:00+08:00",
+  "learning_status": "strong",
+  "revision_events": [
+    {
+      "version": 1,
+      "action": "initial_draft",
+      "learning_signal": "observed",
+      "instruction_summary": "约 800 字，重点介绍 FDE 到 AIBP 的发展过程和个人判断，并引起互动。",
+      "diff_summary": "创建初稿，以工程落地到组织落地为核心转向，保留 FDE、AIBP 和平台团队三层协同关系。",
+      "timestamp": "2026-08-04T22:45:00+08:00"
+    },
+    {
+      "version": 2,
+      "action": "revise_from_user_instruction",
+      "learning_signal": "strong",
+      "instruction_summary": "将 AIBP 的引出改得更自然，并通过 HRBP 对比帮助读者理解角色。",
+      "diff_summary": "以项目交付转向持续业务改造作为过渡，加入 HRBP 与 AIBP 的共同点和职责差异，并精简后续重复表达。",
+      "timestamp": "2026-08-04T22:50:00+08:00"
+    },
+    {
+      "version": 3,
+      "action": "revise_from_user_instruction",
+      "learning_signal": "strong",
+      "instruction_summary": "修改生硬的纠错式开头，直接引出企业 AI 落地从 FDE 到 AIBP 的发展。",
+      "diff_summary": "将抢岗位式开头改为阶段演进式观察，并以 AI 进入企业和企业长出 AI 能力的对照句钉住主线。",
+      "timestamp": "2026-08-04T22:53:00+08:00"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_type": "social",
+  "request_summary": "基于用户提供的 Codex 上下文压缩、Handoff、跨 Agent 接力、/goal 与验收标准经验撰写社交短文",
+  "format": "short-post",
+  "material_references": [
+    "用户在当前会话中提供的原始素材"
+  ],
+  "draft_path": "workbench/articles/drafts/2026-08-03-social-short-post-codex-context-compaction.md",
+  "output_paths": [
+    "workbench/articles/drafts/2026-08-03-social-short-post-codex-context-compaction.md"
+  ],
+  "current_version": 1,
+  "skill_name": "beeweave-social-writer",
+  "skill_source_path": ".agents/skills/beeweave-social-writer/SKILL.md",
+  "skill_version": "sha256:51f69be012edab41",
+  "created_at": "2026-08-03T15:50:17+08:00",
+  "updated_at": "2026-08-03T15:50:17+08:00",
+  "learning_status": "observed",
+  "revision_events": [
+    {
+      "version": 1,
+      "action": "initial_draft",
+      "timestamp": "2026-08-03T15:50:17+08:00",
+      "summary": "完成一篇以验收标准优先于频繁 Handoff 为主轴的社交短文",
+      "learning_signal": "observed"
+    }
+  ]
+}

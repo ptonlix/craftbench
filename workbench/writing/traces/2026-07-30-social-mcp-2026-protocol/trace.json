@@ -1,0 +1,45 @@
+{
+  "task_type": "social",
+  "request_summary": "基于 MCP 2026-07-28 官方 Release Candidate 说明总结关键特点，并撰写约 800 字社交媒体博文",
+  "format": "short-post",
+  "source_materials": [
+    "https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/"
+  ],
+  "draft_path": "workbench/articles/drafts/2026-07-30-social-short-post-mcp-2026-protocol/2026-07-30-social-short-post-mcp-2026-protocol.md",
+  "output_paths": [
+    "workbench/articles/drafts/2026-07-30-social-short-post-mcp-2026-protocol/2026-07-30-social-short-post-mcp-2026-protocol.md",
+    "workbench/articles/drafts/2026-07-30-social-short-post-mcp-2026-protocol/imgs/01-comparison-mcp-stateless-architecture.png"
+  ],
+  "current_version": 2,
+  "skill_name": "beeweave-social-writer",
+  "skill_source_path": "/Users/atlas/WorkStation/craftbench/.agents/skills/beeweave-social-writer/SKILL.md",
+  "created_at": "2026-07-30T15:04:03+08:00",
+  "updated_at": "2026-07-30T17:51:34+08:00",
+  "learning_status": "strong",
+  "revision_events": [
+    {
+      "version": 1,
+      "action": "initial_draft",
+      "timestamp": "2026-07-30T15:04:03+08:00",
+      "summary": "提炼无状态核心、扩展框架、MCP Apps、Tasks、授权、弃用策略、JSON Schema 和治理机制，并形成社交短文",
+      "learning_signal": "observed"
+    },
+    {
+      "version": 2,
+      "action": "revise_from_user_instruction",
+      "timestamp": "2026-07-30T17:51:34+08:00",
+      "instruction": "最好是帮我按照分点描述来描述这个博文 每一点是一个小标题",
+      "summary": "将连续段落重组为 7 个带小标题的关键变化，分别覆盖无状态、部署、多轮交互、扩展、授权、Schema 与可观测性、协议治理",
+      "diff_summary": "保留开头和结尾判断，正文由连续叙述改为 7 个三级标题分点",
+      "learning_signal": "strong"
+    },
+    {
+      "version": 2,
+      "action": "add_illustration",
+      "timestamp": "2026-07-30T18:00:00+08:00",
+      "summary": "生成并插入旧版有状态架构与新版无状态架构的 16:9 screen-print 对比宣传图",
+      "output_path": "workbench/articles/drafts/2026-07-30-social-short-post-mcp-2026-protocol/imgs/01-comparison-mcp-stateless-architecture.png",
+      "learning_signal": "observed"
+    }
+  ]
+}
