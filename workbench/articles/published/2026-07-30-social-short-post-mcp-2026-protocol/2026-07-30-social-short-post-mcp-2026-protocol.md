@@ -2,9 +2,10 @@
 title: "MCP 2026-07-28 新协议关键变化"
 type: social
 format: short-post
-status: draft
+status: published
+published: 2026-08-11T16:48:46+08:00
 created: 2026-07-30T15:04:03+08:00
-updated: 2026-07-30T17:51:34+08:00
+updated: 2026-08-11T16:48:46+08:00
 tags:
   - writing
   - MCP

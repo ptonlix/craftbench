@@ -2,9 +2,10 @@
 title: "关于 Agent 的几个判断"
 type: social
 format: short-post
-status: draft
+status: published
+published: 2026-08-11T16:48:46+08:00
 created: 2026-07-29T18:05:00+08:00
-updated: 2026-07-29T23:49:00+08:00
+updated: 2026-08-11T16:48:46+08:00
 tags:
   - writing
   - agent

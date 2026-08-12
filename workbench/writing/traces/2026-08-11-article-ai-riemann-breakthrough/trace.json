@@ -1,0 +1,52 @@
+{
+  "task_type": "article",
+  "request_summary": "基于指定微博抓取素材，创作约800字社交媒体博文，并采用用户提供的标题方向",
+  "source_references": [
+    "workbench/inbox/web/2026-08-11-web-weibo-com-1727858283-5330573253935807/index.md"
+  ],
+  "draft_path": "workbench/articles/drafts/2026-08-11-article-ai-riemann-breakthrough.md",
+  "output_paths": [
+    "workbench/articles/drafts/2026-08-11-article-ai-riemann-breakthrough.md"
+  ],
+  "current_version": 2,
+  "skill_name": "beeweave-article-writer",
+  "skill_source_path": ".agents/skills/beeweave-article-writer/SKILL.md",
+  "created_at": "2026-08-11T11:29:00+08:00",
+  "updated_at": "2026-08-11T16:48:46+08:00",
+  "learning_status": "observed",
+  "revision_events": [
+    {
+      "version": 1,
+      "action": "initial_draft",
+      "instruction_summary": "突出大模型鼓励师帮助AI在黎曼猜想相关问题取得突破的反差",
+      "diff_summary": "创建约800字初稿，补充数学背景、Agent协作过程与验证边界",
+      "learning_signal": "observed",
+      "created_at": "2026-08-11T11:29:00+08:00"
+    },
+    {
+      "version": 2,
+      "action": "revise_from_user_instruction",
+      "original_instruction": "原本的素材也是说要攻下猜想吧，请结合原素材分析修改开头话术",
+      "diff_summary": "重写开头，先交代 Jarred 让 Claude 直接挑战黎曼猜想，再说明模型未完成最终证明但在相关比例下界上取得突破；同步调整首个小标题",
+      "learning_signal": "strong",
+      "created_at": "2026-08-11T11:42:00+08:00"
+    },
+    {
+      "version": "v2",
+      "actor": "publisher",
+      "action": "published",
+      "summary": "Moved current working draft to articles/published and marked it published.",
+      "draft_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/drafts/2026-08-11-article-ai-riemann-breakthrough/2026-08-11-article-ai-riemann-breakthrough.md",
+      "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-08-11-article-ai-riemann-breakthrough/2026-08-11-article-ai-riemann-breakthrough.md",
+      "learning_signal": "accepted",
+      "timestamp": "2026-08-11T16:48:46+08:00"
+    }
+  ],
+  "status": "published",
+  "final_version": "v2",
+  "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-08-11-article-ai-riemann-breakthrough/2026-08-11-article-ai-riemann-breakthrough.md",
+  "cleanup": {
+    "retained_snapshots": [],
+    "removed_snapshots": []
+  }
+}

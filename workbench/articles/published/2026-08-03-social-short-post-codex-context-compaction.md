@@ -2,9 +2,10 @@
 title: "Codex 上下文压缩与 Handoff 的使用经验"
 type: social
 format: short-post
-status: draft
+status: published
 created: 2026-08-03T15:50:17+08:00
-updated: 2026-08-03T15:50:17+08:00
+published: 2026-08-09T12:27:06+08:00
+updated: 2026-08-09T12:27:06+08:00
 tags:
   - writing
   - codex

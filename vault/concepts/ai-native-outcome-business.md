@@ -12,17 +12,18 @@ relationships:
     type: uses
 sources:
   - /Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-17-social-short-post-ai-outcomes-not-software.md
-summary: AI 原生服务不卖席位或 token，而是直接交付可验收结果；规模化关键在稳定性、异常接管和人工介入率下降。
+  - /Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-08-06-social-short-post-ai-mvp-closed-loop.md
+summary: AI 原生服务从单个功能扩展为可验收的业务闭环；规模化关键在结果责任、稳定性、异常接管和人工介入率下降。
 provenance:
   extracted: 0.8
   inferred: 0.2
   ambiguous: 0.0
-base_confidence: 0.32
+base_confidence: 0.55
 lifecycle: draft
 lifecycle_changed: 2026-07-24
 tier: supporting
 created: 2026-07-24T23:20:12+08:00
-updated: 2026-07-24T23:20:12+08:00
+updated: 2026-08-09T12:27:06+08:00
 ---
 
 # AI-Native Outcome Business
@@ -36,6 +37,7 @@ AI 原生服务把产品单位从软件席位、调用次数或 token，改成�
 - 可靠交付需要质量门槛与专家接管机制，不能只依赖模型能力。
 - 人工介入若随客户数量线性增长，业务仍会退化为重人力的传统服务公司。
 - 垂直 AI 应从零设计交付流程，前台维护信任，后台让 AI 承担可标准化工作，并按成果收费。
+- 最小业务闭环不是增加更多功能，而是把数据收集、异常判断、报告或任务交付连成客户愿意付费的完整结果。
 
 ## Business Test
 
@@ -49,6 +51,7 @@ AI 原生服务把产品单位从软件席位、调用次数或 token，改成�
 - [[concepts/maas-commoditization]] — 当基础模型与 token 趋于商品化，价值更可能向结果交付迁移。
 - [[concepts/ai-code-quality-gates]] — AI 承担工作后，稳定交付依赖可自动执行的质量门槛。
 - [[concepts/one-person-company-market-validation]] — 结果型业务仍必须先验证客户需求、预算与付款意愿。
+- [[references/published-social-posts-2026-08-03-to-06]] — 从 MVP 转向最小业务闭环的来源短文。
 
 ## Open Questions
 

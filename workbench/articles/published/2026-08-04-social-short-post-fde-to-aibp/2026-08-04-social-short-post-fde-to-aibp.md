@@ -2,9 +2,10 @@
 title: "从 FDE 到 AIBP，企业 AI 正在跨过一道分水岭"
 type: social
 format: short-post
-status: draft
+status: published
+published: 2026-08-11T16:48:46+08:00
 created: 2026-08-04T22:45:00+08:00
-updated: 2026-08-04T22:53:00+08:00
+updated: 2026-08-11T16:48:46+08:00
 tags:
   - writing
   - AI

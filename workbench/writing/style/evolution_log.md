@@ -4,6 +4,16 @@
 
 ## Log
 
+## 2026-08-09 13:51 激活来源式开头并新增社交语言反模式
+
+- action: activate
+- affected_layer: resource
+- affected_files: writing/style/active_style_rules.md；writing/style/anti_patterns.md；writing/style/pending_rules.md；writing/style/social_examples.md；writing/style/evolution_log.md
+- evidence: PENDING-20260809-001；PENDING-20260809-002；PENDING-20260714-001；workbench/writing/traces/2026-08-06-social-ai-mvp-closed-loop/trace.json；workbench/writing/traces/2026-07-28-social-vibe-coding-ownership/trace.json；workbench/writing/traces/2026-07-16-social-one-person-company-risk/trace.json；workbench/writing/traces/2026-07-13-social-chatcut-pricing/trace.json；对应发布终稿
+- validation: writing/eval/ 只有 .gitkeep，暂无 rubric 或 eval case；本次基于三次来源式开头强改稿信号、一次明确语言反馈、发布采纳，以及用户在 2026-08-09 明确确认按审阅建议执行
+- summary: 激活来源驱动社交观点稿的通用开头规则；将避免生僻成语和过度书面措辞下沉为窄范围社交反模式；把 ChatCut 四步开场保留为通用规则下的热点争议与收费澄清示例；PENDING-20260809-003 继续等待跨稿验证
+- rollback: 删除 RULE-20260809-001、ANTI-20260809-001 和 EXAMPLE-20260809-004；把 PENDING-20260809-001、PENDING-20260809-002、PENDING-20260714-001 的 status 恢复为 pending 并删除 resolution；保留 PENDING-20260809-003 不变
+
 ## 2026-07-16 21:31 激活观点金句与局部清单规则
 
 - action: activate

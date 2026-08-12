@@ -20,7 +20,12 @@
 
 ## Learned Anti-patterns
 
-暂无。
+### ANTI-20260809-001
+- status: active
+- scope: social
+- evidence: PENDING-20260809-002；workbench/writing/traces/2026-08-06-social-ai-mvp-closed-loop/trace.json；用户明确要求将“奉为圭臬”改为“追捧”，对应 v3 终稿已发布；用户在 2026-08-09 确认按审阅建议执行
+- avoid: 为了显得有文采而使用生僻成语、过度书面化措辞或脱离日常语境的修辞，例如用“奉为圭臬”代替“追捧”。
+- prefer: 使用直接、日常、读一遍就懂的词，把表达力量放在判断和事实本身，而不是词藻上。
 
 ## 条目格式
 
@@ -32,4 +37,3 @@
 - avoid: 需要避免的写法
 - prefer: 推荐替代方式
 ```
-

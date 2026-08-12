@@ -14,8 +14,15 @@
   "skill_source_path": ".agents/skills/beeweave-social-writer/SKILL.md",
   "skill_version": "sha256:51f69be012edab41",
   "created_at": "2026-08-03T15:50:17+08:00",
-  "updated_at": "2026-08-03T15:50:17+08:00",
+  "updated_at": "2026-08-09T12:27:06+08:00",
   "learning_status": "observed",
+  "status": "published",
+  "final_version": 1,
+  "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-08-03-social-short-post-codex-context-compaction.md",
+  "cleanup": {
+    "retained_snapshots": [],
+    "removed_snapshots": []
+  },
   "revision_events": [
     {
       "version": 1,
@@ -23,6 +30,16 @@
       "timestamp": "2026-08-03T15:50:17+08:00",
       "summary": "完成一篇以验收标准优先于频繁 Handoff 为主轴的社交短文",
       "learning_signal": "observed"
+    },
+    {
+      "version": 1,
+      "actor": "publisher",
+      "action": "published",
+      "timestamp": "2026-08-09T12:27:06+08:00",
+      "summary": "Moved current working draft to articles/published and marked it published.",
+      "draft_path": "workbench/articles/drafts/2026-08-03-social-short-post-codex-context-compaction.md",
+      "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-08-03-social-short-post-codex-context-compaction.md",
+      "learning_signal": "accepted"
     }
   ]
 }

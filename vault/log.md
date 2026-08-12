@@ -1,5 +1,9 @@
 ## Log
 
+- [2026-08-12T11:04:00+08:00] INGEST source="/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-29-to-2026-08-11 batch" pages_updated=2 pages_created=6 mode=append
+
+- [2026-08-09T12:27:06+08:00] INGEST source="/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-08-03-social-short-post-codex-context-compaction.md" pages_updated=1 pages_created=1 mode=append
+- [2026-08-09T12:27:06+08:00] INGEST source="/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-08-06-social-short-post-ai-mvp-closed-loop.md" pages_updated=2 pages_created=0 mode=append
 - [2026-07-29T17:20:11+08:00] INGEST source="/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-28-social-short-post-vibe-coding-ownership.md" pages_updated=1 pages_created=1 mode=append
 - [2026-07-10T02:51:00Z] INGEST source="workbench/articles/published/2026-07-10-social-zhihu-vibe-coding-free-resources.md" pages_updated=0 pages_created=6 mode=append
 - [2026-07-02T02:49:38Z] INGEST source="workbench/articles/published" pages_updated=0 pages_created=12 mode=append

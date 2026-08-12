@@ -12,7 +12,7 @@
   "skill_name": "beeweave-social-writer",
   "skill_source_path": "/Users/atlas/WorkStation/craftbench/.agents/skills/beeweave-social-writer/SKILL.md",
   "created_at": "2026-07-29T18:05:00+08:00",
-  "updated_at": "2026-07-29T23:49:00+08:00",
+  "updated_at": "2026-08-11T16:48:46+08:00",
   "learning_status": "observed",
   "revision_events": [
     {
@@ -61,6 +61,23 @@
       "user_instruction": "删除 Skill 入口那句，并精简提炼后面的内容",
       "summary": "删除无递进关系的连接器机会句，将第六点压缩为不拼 Agent 平台、定义 Agent 原生应用、寻找过去无法成立的新产品三层",
       "learning_signal": "strong"
+    },
+    {
+      "version": "v6",
+      "actor": "publisher",
+      "action": "published",
+      "summary": "Moved current working draft to articles/published and marked it published.",
+      "draft_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/drafts/2026-07-29-social-short-post-agent-market-judgments/2026-07-29-social-short-post-agent-market-judgments.md",
+      "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-29-social-short-post-agent-market-judgments/2026-07-29-social-short-post-agent-market-judgments.md",
+      "learning_signal": "accepted",
+      "timestamp": "2026-08-11T16:48:46+08:00"
     }
-  ]
+  ],
+  "status": "published",
+  "final_version": "v6",
+  "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-29-social-short-post-agent-market-judgments/2026-07-29-social-short-post-agent-market-judgments.md",
+  "cleanup": {
+    "retained_snapshots": [],
+    "removed_snapshots": []
+  }
 }

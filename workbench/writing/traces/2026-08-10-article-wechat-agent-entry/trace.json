@@ -1,0 +1,42 @@
+{
+  "task_type": "article",
+  "request_summary": "基于用户提供的微信 AI、小程序、Agent Skills 与通用 Agent 竞争素材，输出约 600 字社交媒体博文。",
+  "material_reference": "Current conversation user input on 2026-08-10",
+  "draft_path": "workbench/articles/drafts/2026-08-10-article-wechat-agent-entry.md",
+  "output_paths": [
+    "workbench/articles/drafts/2026-08-10-article-wechat-agent-entry.md"
+  ],
+  "current_version": "v1",
+  "skill_name": "beeweave-article-writer",
+  "skill_source_path": "/Users/atlas/WorkStation/craftbench/.agents/skills/beeweave-article-writer/SKILL.md",
+  "created_at": "2026-08-10T10:15:31+08:00",
+  "updated_at": "2026-08-11T16:48:46+08:00",
+  "learning_status": "observed",
+  "revision_events": [
+    {
+      "version": "v1",
+      "action": "initial_draft",
+      "timestamp": "2026-08-10T10:15:31+08:00",
+      "instruction_summary": "约 600 字社交媒体观点博文，仔细分析后成稿。",
+      "diff_summary": "建立用户意图入口的核心论点，补充微信关系链优势作为边界，压缩为短段落观点稿。",
+      "learning_signal": "observed"
+    },
+    {
+      "version": "v1",
+      "actor": "publisher",
+      "action": "published",
+      "summary": "Moved current working draft to articles/published and marked it published.",
+      "draft_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/drafts/2026-08-10-article-wechat-agent-entry/2026-08-10-article-wechat-agent-entry.md",
+      "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-08-10-article-wechat-agent-entry/2026-08-10-article-wechat-agent-entry.md",
+      "learning_signal": "accepted",
+      "timestamp": "2026-08-11T16:48:46+08:00"
+    }
+  ],
+  "status": "published",
+  "final_version": "v1",
+  "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-08-10-article-wechat-agent-entry/2026-08-10-article-wechat-agent-entry.md",
+  "cleanup": {
+    "retained_snapshots": [],
+    "removed_snapshots": []
+  }
+}

@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 25,
-    "total_pages": 41
+    "total_sources_ingested": 27,
+    "total_pages": 42
   },
   "sources": {
     "workbench/articles/published/2026-06-01-gohumanloop-langgraph/index.md": {
@@ -494,6 +494,71 @@
       "pages_produced": [
         "concepts/vibe-coding.md",
         "references/vibe-coding-ownership-social-post-2026-07-28.md"
+      ]
+    },
+    "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-08-03-social-short-post-codex-context-compaction.md": {
+      "content_hash": "sha256:b1384282ee18caa2df13f69f3870a9ece4ba5c4eee52095494ba515932e2b7b0",
+      "last_ingested": "2026-08-09T04:29:00.057419+00:00",
+      "pages_produced": [
+        "concepts/prompt-context-harness-engineering.md",
+        "references/published-social-posts-2026-08-03-to-06.md"
+      ]
+    },
+    "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-08-06-social-short-post-ai-mvp-closed-loop.md": {
+      "content_hash": "sha256:1732e5b56e437de082a136fc8e7ae22236cf53e6c86deeed8b2f802d2b31be2e",
+      "last_ingested": "2026-08-09T04:29:00.374682+00:00",
+      "pages_produced": [
+        "concepts/one-person-company-market-validation.md",
+        "concepts/ai-native-outcome-business.md",
+        "references/published-social-posts-2026-08-03-to-06.md"
+      ]
+    },
+    "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-29-social-short-post-agent-market-judgments/2026-07-29-social-short-post-agent-market-judgments.md": {
+      "content_hash": "sha256:31482fa63635e29ed7a7db49e92855f041de75bfbff86d3fc10e15981495c214",
+      "last_ingested": "2026-08-12T03:08:12.618679+00:00",
+      "pages_produced": [
+        "references/published-articles-2026-07-29-to-08-11.md",
+        "concepts/agent-platform-concentration.md"
+      ]
+    },
+    "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-30-social-short-post-mcp-2026-protocol/2026-07-30-social-short-post-mcp-2026-protocol.md": {
+      "content_hash": "sha256:15c71c96c3a7c99e1fb29bf196470be303942f05ead045c02db7ea255c5dedc1",
+      "last_ingested": "2026-08-12T03:08:12.873997+00:00",
+      "pages_produced": [
+        "references/published-articles-2026-07-29-to-08-11.md",
+        "concepts/mcp-stateless-protocol.md"
+      ]
+    },
+    "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-08-04-social-short-post-fde-to-aibp/2026-08-04-social-short-post-fde-to-aibp.md": {
+      "content_hash": "sha256:41a236976991a7f5d157101a0dfba39b1b8b90c69f044e91e0ece2e2998bb1ba",
+      "last_ingested": "2026-08-12T03:08:13.129580+00:00",
+      "pages_produced": [
+        "references/published-articles-2026-07-29-to-08-11.md",
+        "concepts/enterprise-ai-organization.md"
+      ]
+    },
+    "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-08-05-social-short-post-ai-commercial-loop/2026-08-05-social-short-post-ai-commercial-loop.md": {
+      "content_hash": "sha256:79eccbe388ce5530e7dbba2f88b41c0d1a6efcc0f2779d8a69e4f4b37c0b9d16",
+      "last_ingested": "2026-08-12T03:08:13.379292+00:00",
+      "pages_produced": [
+        "references/published-articles-2026-07-29-to-08-11.md",
+        "concepts/ai-native-outcome-business.md"
+      ]
+    },
+    "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-08-10-article-wechat-agent-entry/2026-08-10-article-wechat-agent-entry.md": {
+      "content_hash": "sha256:1946c467fc4ed0c146a0eaf68a8f894559cb0a85092f33fb3f0ba38cdcbf2719",
+      "last_ingested": "2026-08-12T03:08:13.628205+00:00",
+      "pages_produced": [
+        "references/published-articles-2026-07-29-to-08-11.md",
+        "concepts/agent-as-super-entry.md"
+      ]
+    },
+    "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-08-11-article-ai-riemann-breakthrough/2026-08-11-article-ai-riemann-breakthrough.md": {
+      "content_hash": "sha256:2642997e4101d105a50fe5c83b62928ecac9ff5922276ea3187b6b346dccf9ea",
+      "last_ingested": "2026-08-12T03:08:13.878331+00:00",
+      "pages_produced": [
+        "references/published-articles-2026-07-29-to-08-11.md",
+        "concepts/ai-research-orchestration.md"
       ]
     }
   }

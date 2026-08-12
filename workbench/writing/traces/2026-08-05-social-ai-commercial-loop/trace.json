@@ -1,0 +1,56 @@
+{
+  "task_type": "social",
+  "request_summary": "基于六类AI商业案例分析当前跑通商业闭环的业务，并输出约500字社交媒体博文",
+  "format": "short-post",
+  "material_reference": "用户于2026-08-05在当前会话提供的素材",
+  "draft_path": "workbench/articles/drafts/2026-08-05-social-short-post-ai-commercial-loop/2026-08-05-social-short-post-ai-commercial-loop.md",
+  "output_paths": [
+    "workbench/articles/drafts/2026-08-05-social-short-post-ai-commercial-loop/2026-08-05-social-short-post-ai-commercial-loop.md",
+    "workbench/articles/drafts/2026-08-05-social-short-post-ai-commercial-loop/imgs/01-infographic-ai-commercial-loop.png"
+  ],
+  "current_version": "v2",
+  "skill_name": "beeweave-social-writer",
+  "skill_source_path": "/Users/atlas/WorkStation/craftbench/.agents/skills/beeweave-social-writer/SKILL.md",
+  "created_at": "2026-08-05T22:35:00+08:00",
+  "updated_at": "2026-08-11T16:48:46+08:00",
+  "learning_status": "observed",
+  "revision_events": [
+    {
+      "timestamp": "2026-08-05T22:35:00+08:00",
+      "action": "initial_draft",
+      "learning_signal": "observed",
+      "summary": "将六类案例归纳为可持续商业闭环，并修正IAP、弱化未经核实数据与绝对化结论"
+    },
+    {
+      "timestamp": "2026-08-05T22:41:00+08:00",
+      "action": "revise_from_user_instruction",
+      "learning_signal": "strong",
+      "instruction": "需要按照素材那样子分点描述，每一点来123456描述，不要混在一起",
+      "summary": "将连续段落改为1至6编号结构，每一类业务独立说明代表案例、变现方式和闭环逻辑"
+    },
+    {
+      "timestamp": "2026-08-05T22:45:00+08:00",
+      "action": "add_article_illustration",
+      "learning_signal": "observed",
+      "instruction": "选择方案1，为文章生成信息图宣传海报",
+      "summary": "整理文章专属目录，使用screen-print暖色风格生成16:9六模块信息图，并插入文章正文"
+    },
+    {
+      "version": "v2",
+      "actor": "publisher",
+      "action": "published",
+      "summary": "Moved current working draft to articles/published and marked it published.",
+      "draft_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/drafts/2026-08-05-social-short-post-ai-commercial-loop/2026-08-05-social-short-post-ai-commercial-loop.md",
+      "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-08-05-social-short-post-ai-commercial-loop/2026-08-05-social-short-post-ai-commercial-loop.md",
+      "learning_signal": "accepted",
+      "timestamp": "2026-08-11T16:48:46+08:00"
+    }
+  ],
+  "status": "published",
+  "final_version": "v2",
+  "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-08-05-social-short-post-ai-commercial-loop/2026-08-05-social-short-post-ai-commercial-loop.md",
+  "cleanup": {
+    "retained_snapshots": [],
+    "removed_snapshots": []
+  }
+}

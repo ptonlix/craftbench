@@ -103,12 +103,13 @@
 - rule: 作者长期关注 AI Agent 工程化：不满足于提示词技巧，而是倾向讨论上下文组织、工作循环、工具外壳、验证机制、人工接管和长期记忆。
 
 ### PENDING-20260714-001
-- status: pending
+- status: exampled
 - scope: social
 - suggested_layer: instruction
 - confidence: high
 - evidence: workbench/writing/traces/2026-07-13-social-chatcut-pricing/trace.json；用户明确认可素材中的铺垫式开头，并指令将原有问句钩子改为“热点讨论—网友质疑—主动研究—直接结论”的完整开场，属于用户指令驱动的强改稿信号。
 - validation: 后续撰写热点解释、收费澄清或争议回应类短帖时，分别测试直接问句钩子与四步铺垫开场；检查四步开场是否能在前 4 个短段内交代讨论背景、核心质疑、作者行动和明确结论，且没有拖慢正文。
+- resolution: on 2026-08-09 retained as a scoped example under RULE-20260809-001 rather than activated separately；its “热点讨论—外部质疑—主动核实—直接结论” pattern remains useful for dispute and pricing-explainer posts but is too narrow for another active rule.
 - rule: 写热点解释、收费澄清或争议回应类短帖时，开头优先按“热点讨论—外部质疑—我去研究/核实—先给结论”推进；先让读者知道争议从哪里来、作者为何介入，再进入具体解释。该规则是 RULE-20260712-005 的场景化补充，不替代一般社交短内容的反常识钩子规则。
 
 ### PENDING-20260716-001
@@ -130,6 +131,37 @@
 - validation: 后续写 500 字以上的 short-post 时，只在行动检查、判断标准或连续问题超过 3 项时测试短清单；比较纯段落版和清单版的扫读性，并确认清单不会让正文滑向报告体。
 - resolution: merged into RULE-20260712-006 on 2026-07-16 after user confirmation, as a scoped exception to the no-bullet preference.
 - rule: 社交短文正文仍以短段落为主，但遇到 3 项左右需要读者逐项核对的判断标准或行动问题时，可以局部使用短清单降低阅读负担；清单应短、具体，只承担检查功能，不把全文写成列表。
+
+### PENDING-20260809-001
+- status: activated
+- scope: social
+- suggested_layer: instruction
+- confidence: high
+- evidence: workbench/writing/traces/2026-08-06-social-ai-mvp-closed-loop/trace.json 中，用户明确要求先交代从哪里看到或读到观点，再顺势引出自己的思考；workbench/writing/traces/2026-07-28-social-vibe-coding-ownership/trace.json 中，用户要求增加当天在 X 上看到案例的开头故事；workbench/writing/traces/2026-07-16-social-one-person-company-risk/trace.json 的人工改稿同样保留真实阅读来源。对应终稿均已发布。该模式可泛化到来源驱动的观点短文，但不重复 PENDING-20260714-001 所限定的热点争议四步开场。
+- validation: 后续连续 3 篇由文章、视频、帖子或案例触发的观点短文，分别检查前两段是否交代来源及其与作者判断的关系；与直接判断开头对照，确认来源句没有变成冗长背景铺垫。
+- resolution: activated as RULE-20260809-001 on 2026-08-09 after review of three strong user revision signals, published final versions, and explicit user confirmation；PENDING-20260714-001 was retained as its narrower dispute/pricing example.
+- rule: 当社交观点来自外部文章、视频、帖子或案例时，开头先用一两句自然交代“在哪里看到什么”，再说明它触发了自己的哪个判断；不要使用“素材里最有价值”“案例恰好说明”等幕后分析口吻，也不要把来源铺陈成与主线无关的背景。
+
+### PENDING-20260809-002
+- status: activated_as_anti_pattern
+- scope: social
+- suggested_layer: instruction
+- confidence: high
+- evidence: workbench/writing/traces/2026-08-06-social-ai-mvp-closed-loop/trace.json 中，用户明确要求把“奉为圭臬”替换成“追捧”，并说明社交写作不要为了修辞乱用成语；发布终稿采用了更直接、日常的表达。这是一条用户明确指令驱动的强信号，但目前只有一次直接反馈，因此仍待跨稿验证。
+- validation: 后续社交短文质检时标记生僻成语、书面套语和刻意修辞，优先改成日常动词或短句；积累至少 3 次用户采纳记录后再考虑激活。
+- resolution: activated as ANTI-20260809-001 on 2026-08-09 after explicit user confirmation；stored as a narrow social anti-pattern instead of a general active rule to avoid duplicating RULE-DEFAULT-001.
+- avoid: 为了显得有文采而使用生僻成语、过度书面化措辞或脱离日常语境的修辞，例如用“奉为圭臬”代替“追捧”。
+- prefer: 使用直接、日常、读一遍就懂的词，把表达力量放在判断和事实本身，而不是词藻上。
+- rule: 社交写作优先使用直接、日常的中文表达，不为了修辞强行使用生僻成语或过度书面化措辞。
+
+### PENDING-20260809-003
+- status: pending
+- scope: all
+- suggested_layer: instruction
+- confidence: medium
+- evidence: workbench/articles/published/2026-07-28-social-short-post-vibe-coding-ownership.md 在“AI 降低创造成本”后补充适合自研的明确边界；workbench/articles/published/2026-08-06-social-short-post-ai-mvp-closed-loop.md 在“MVP 不再是壁垒”后说明 MVP 仍负责验证方向；workbench/articles/published/2026-07-13-social-short-post-chatcut-pricing.md 区分插件基础编辑、生成素材与 Agent 原有成本；三篇 BeeWeave 长文也均包含“不适合谁、限制或真实失败”段落。证据来自重复出现的发布终稿，目前缺少用户对该模式的单独确认。
+- validation: 后续观点稿提出强判断后，检查是否需要补一段适用条件、例外或成本；与不补边界的版本对照，确认补充内容提升可信度而没有削弱主结论。
+- rule: 提出强判断后，主动交代它不适用的场景、仍然成立的旧价值或必须承担的成本；边界要具体，并继续服务主线，避免为了显得客观而机械写“也要辩证看待”。
 
 ## 条目格式
 

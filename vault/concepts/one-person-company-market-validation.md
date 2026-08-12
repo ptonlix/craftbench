@@ -14,7 +14,8 @@ sources:
   - /Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-16-social-short-post-one-person-company-risk/2026-07-16-social-short-post-one-person-company-risk.md
   - /Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-16-article-beeweave-writing-loop/2026-07-16-article-beeweave-writing-loop.md
   - /Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-07-17-social-short-post-ai-outcomes-not-software.md
-summary: AI 提升生产速度却不替代需求与付款验证；更强的商业模式应围绕客户可验收结果，而不是软件席位或模型用量。
+  - /Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-08-06-social-short-post-ai-mvp-closed-loop.md
+summary: AI 让 MVP 更易生产却不替代需求与付款验证；创业验证应从单个功能深入到可交付、可验收的最小业务闭环。
 provenance:
   extracted: 0.78
   inferred: 0.20
@@ -24,7 +25,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-17
 tier: supporting
 created: 2026-07-17T07:06:00Z
-updated: 2026-07-24T23:20:12+08:00
+updated: 2026-08-09T12:27:06+08:00
 ---
 
 # One-Person Company Market Validation
@@ -53,11 +54,19 @@ AI 降低的是软件生产门槛，不是做生意的门槛。一人公司最�
 - 结果型服务仍需同时验证稳定性、人工接管成本和规模化毛利，不能只证明模型能完成一次任务。
 - [[concepts/ai-native-outcome-business]] 把市场验证进一步延伸到结果定义、交付责任和成果定价。
 
+## Minimum Business Loop
+
+- 基础模型、编程 Agent 和成熟组件让 MVP 越来越接近入场券，单个小功能本身更难形成壁垒。
+- MVP 仍用于验证方向，但验证单元应从“能否做出功能”扩展到“能否完成数据收集、业务判断、交付和结果验收”。
+- 公开发布可以晚，真实客户验证必须早；Stripe 的早期路径显示，产品能力可以沿生产客户的交易查询、退款和结算需求逐步补齐。
+- 壁垒更可能来自业务深度、完整闭环，以及持续沉淀的数据、流程和客户关系。
+
 ## Related
 
 - [[concepts/research-first-vibe-coding]] — 编码前的研究还应扩展到客户与付费验证，而不只研究技术方案。 ^[inferred]
 - [[concepts/vibe-coding]] — AI 加速产品实现，但不自动提供获客渠道和商业判断。
 - [[concepts/human-in-the-loop]] — 外部客户反馈是创业决策循环中不可省略的人类校准。 ^[inferred]
+- [[references/published-social-posts-2026-08-03-to-06]] — AI 时代 MVP 与最小业务闭环的来源短文。
 
 ## Open Questions
 

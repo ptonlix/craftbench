@@ -1,0 +1,55 @@
+{
+  "task_type": "social",
+  "request_summary": "基于用户提供的抖音视频转写，分析 AI 对精益创业和 MVP 的影响，输出约 500 字社交媒体博文",
+  "format": "short-post",
+  "source_material": "用户提供的抖音视频文字稿，视频 ID 7670120089693310249",
+  "draft_path": "workbench/articles/drafts/2026-08-06-social-short-post-ai-mvp-closed-loop.md",
+  "output_paths": [
+    "workbench/articles/drafts/2026-08-06-social-short-post-ai-mvp-closed-loop.md"
+  ],
+  "current_version": 3,
+  "skill_name": "beeweave-social-writer",
+  "skill_source_path": "/Users/atlas/WorkStation/craftbench/.agents/skills/beeweave-social-writer/SKILL.md",
+  "created_at": "2026-08-06T21:13:00+08:00",
+  "updated_at": "2026-08-09T12:27:06+08:00",
+  "learning_status": "observed",
+  "status": "published",
+  "final_version": 3,
+  "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-08-06-social-short-post-ai-mvp-closed-loop.md",
+  "cleanup": {
+    "retained_snapshots": [],
+    "removed_snapshots": []
+  },
+  "revision_events": [
+    {
+      "version": 1,
+      "action": "initial_draft",
+      "learning_signal": "observed",
+      "summary": "提炼 MVP 稀缺性下降、最小业务闭环与真实用户验证，并补充精益创业并未失效的边界。"
+    },
+    {
+      "version": 2,
+      "action": "revise_from_user_instruction",
+      "learning_signal": "strong",
+      "user_instruction": "先交代从哪里看到或读到相关观点，再顺势引出自己的思考，不直接使用‘素材里最有价值’或‘案例恰好说明’等幕后分析口吻。",
+      "summary": "增加 Patrick Collison 视频作为叙事入口，把 Stripe 早期经历融入观点来源，再自然过渡到最小业务闭环与真实验证。"
+    },
+    {
+      "version": 3,
+      "action": "revise_from_user_instruction",
+      "learning_signal": "strong",
+      "user_instruction": "不要使用‘奉为圭臬’这类成语，直接换成‘追捧’，社交写作不要为了修辞乱用成语。",
+      "summary": "将‘奉为圭臬’替换为‘追捧’，并复查正文，优先保留直接、日常的表达。"
+    },
+    {
+      "version": 3,
+      "actor": "publisher",
+      "action": "published",
+      "timestamp": "2026-08-09T12:27:06+08:00",
+      "summary": "Moved current working draft to articles/published and marked it published.",
+      "draft_path": "workbench/articles/drafts/2026-08-06-social-short-post-ai-mvp-closed-loop.md",
+      "published_path": "/Users/atlas/WorkStation/craftbench/workbench/articles/published/2026-08-06-social-short-post-ai-mvp-closed-loop.md",
+      "learning_signal": "accepted"
+    }
+  ]
+}

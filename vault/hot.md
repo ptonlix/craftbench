@@ -1,13 +1,13 @@
 ---
 title: Hot Cache
-updated: 2026-07-29T17:20:11+08:00
+updated: 2026-08-12T11:04:00+08:00
 ---
 
 ## Recent Activity
 
+- Ingested six published articles connecting Agent platform concentration, stateless MCP infrastructure, enterprise AI organization, business loops, interface migration, and AI research orchestration.
+- Ingested two social posts connecting Codex context operations with explicit acceptance criteria, and reframing AI-era MVP work around a minimum viable business loop.
 - Ingested a Vibe Coding ownership-cost essay, extending the topic from fast creation into maintenance responsibility, total cost, and build-versus-buy boundaries.
-- Ingested four published social posts from 2026-07-17 through 2026-07-24, connecting AI outcome businesses and MaaS commoditization with Agent path security and code quality gates.
-- Ingested nine published pieces from 2026-07-10 through 2026-07-16, strengthening BeeWeave's workbench/vault model and compiling its complete human-governed writing loop.
 
 ## Active Threads
 
@@ -17,7 +17,12 @@ updated: 2026-07-29T17:20:11+08:00
 - Self-evolving writing: [[projects/beeweave/concepts/self-evolving-writing-loop]] connects trace evidence, manual edits, pending rules, review, activation, and rollback.
 - Build-after-evidence: [[concepts/research-first-vibe-coding]] and [[concepts/one-person-company-market-validation]] extend research from open-source architecture to paying-customer evidence.
 - AI Agent production loops: [[concepts/agent-loop-engineering]], [[concepts/prompt-context-harness-engineering]], [[concepts/human-in-the-loop]], and [[synthesis/ai-agent-production-loop]] form the main method cluster.
+- Long-context Agent work: [[concepts/prompt-context-harness-engineering]], [[concepts/ai-code-quality-gates]], and [[references/published-social-posts-2026-08-03-to-06]] connect compaction and Handoff decisions to explicit acceptance criteria.
+- Agent platform shift: [[concepts/agent-platform-concentration]], [[concepts/mcp-stateless-protocol]], and [[concepts/agent-as-super-entry]] connect extensible capability platforms to production infrastructure and interface migration.
+- Enterprise AI adoption: [[concepts/enterprise-ai-organization]] and [[concepts/ai-native-outcome-business]] connect technical deployment to organizational change and measurable business outcomes.
+- AI research collaboration: [[concepts/ai-research-orchestration]], [[concepts/human-in-the-loop]], and [[concepts/ai-code-quality-gates]] connect persistent exploration to independent verification.
 - AI value migration: [[concepts/maas-commoditization]] and [[concepts/ai-native-outcome-business]] connect model-resource price pressure to outcome-based delivery and pricing.
+- Minimum business loop: [[concepts/one-person-company-market-validation]] and [[concepts/ai-native-outcome-business]] connect fast MVP production to real customer validation and end-to-end outcome delivery.
 - Strong-Agent governance: [[concepts/agent-goal-boundary-security]] and [[concepts/ai-code-quality-gates]] extend the production loop with prohibited paths and executable quality gates.
 - GoHumanLoop implementation path: [[entities/gohumanloop]], [[entities/gohumanloop-wework]], [[skills/langgraph-human-loop-integration]], [[skills/crewai-human-loop-integration]], and [[skills/wework-human-loop-deployment]] capture concrete HITL integration routes.
 
@@ -36,5 +41,9 @@ updated: 2026-07-29T17:20:11+08:00
 - As model access becomes easier to switch, durable value moves from token supply toward measurable customer outcomes.
 - Stronger Agent autonomy requires explicit path constraints, independent verification, observability, stopping controls, and accountability.
 - AI makes the first version cheap, but long-term software ownership still requires accountable maintainers and a deliberate build-versus-buy boundary.
+- Context occupancy alone should not trigger a Handoff; task continuity, explicit boundaries, and executable acceptance criteria are stronger control signals.
+- As MVP production becomes commoditized, durable product value shifts toward real-customer validation, business depth, and complete delivery loops.
+- Agent competition may concentrate at the model-and-ecosystem layer while creating a new application layer built around persistent, accountable outcomes.
+- AI research autonomy raises the value of problem selection, exploration budgets, formal checks, expert review, and explicit responsibility.
 
 ## Flagged Contradictions

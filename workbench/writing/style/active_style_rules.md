@@ -78,6 +78,14 @@
 - validated_by: user manual revision and explicit activation confirmation on 2026-07-16
 - rule: 观点型社交短文可以在开头判断之后增加一句独立成段的对照式金句，用更短、更可传播的表达钉住全文核心矛盾；金句必须推进或压缩观点，不能只是重复标题。
 
+### RULE-20260809-001
+- status: active
+- scope: social
+- layer: instruction
+- evidence: PENDING-20260809-001；workbench/writing/traces/2026-08-06-social-ai-mvp-closed-loop/trace.json；workbench/writing/traces/2026-07-28-social-vibe-coding-ownership/trace.json；workbench/writing/traces/2026-07-16-social-one-person-company-risk/trace.json；对应发布终稿
+- validated_by: three strong user revision signals；published final versions；user activation confirmation on 2026-08-09
+- rule: 当社交观点来自外部文章、视频、帖子或案例时，开头先用一两句自然交代在哪里看到什么，再说明它触发了自己的哪个判断；不要使用“素材里最有价值”“案例恰好说明”等幕后分析口吻，也不要把来源铺陈成与主线无关的背景。
+
 ## 条目格式
 
 ```text
